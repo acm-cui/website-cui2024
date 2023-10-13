@@ -49,7 +49,7 @@ social:
         card: /assets/img/twittercard.png
         card_alt: ACM CUI 2024 will be in Luxembourg City, Luxembourg from 8th–10th July 2024
     github:
-        username: leophill
+        username: acm-cui
 
 # Build settings
 plugins_dir: ./_plugins
