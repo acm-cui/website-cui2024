@@ -63,7 +63,6 @@ menu:
 		<h2>Tentative Submission Dates</h2>
 
 		<p>
-		We propose the following conference timeline, which can be adjusted according to guidance from the steering committee and the experience of the new revise and resubmit policy, as implemented recently by, e.g. the CHI and MobileHCI conferences.
 		Note: All dates are in the AoE (Anywhere on Earth) timezone.
 
 		<ul>
