@@ -30,8 +30,8 @@ menus:
         {% for role in group[1]['roles'] %}
         <h3>{{ role[1].label }}{%- if role[1].contact %} <a href="{{ role[1].email }}" title="Send an email to the CUI {{ site.conference.year }} {{ role[1].label }}">
             <picture>
-                <source srcset="/assets/img/envelope-fill-w.svg" media="(prefers-color-scheme: dark)" width="30px" height="auto"/>
-                <img src="/assets/img/envelope-fill.svg" width="30px" height="auto"/>
+                <source srcset="{{ site.baseurl }}/assets/img/envelope-fill-w.svg" media="(prefers-color-scheme: dark)" width="30px" height="auto"/>
+                <img src="{{ site.baseurl }}/assets/img/envelope-fill.svg" width="30px" height="auto"/>
             </picture>
         </a>{% endif %}</h3>
         <ul class="list-unstyled d-inline-block" style="min-width: 400px">
