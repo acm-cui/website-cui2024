@@ -29,7 +29,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'jekyll-titles-from-headings'
-  gem "jekyll-menus"
+  gem "jekyll-menus", :git => "https://github.com/forestryio/jekyll-menus.git" 
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
