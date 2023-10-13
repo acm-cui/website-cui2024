@@ -53,7 +53,7 @@ menu:
 		</p>
 
 		<p>
-			We are planning an in-person event for 2024, with multiple tracks now open for submissions. <br>We hope you can join us!
+			We are planning an in-person event for 2024. <br>We hope you can join us!
 			<br><br>
 			{{ site.conference.short_name }} {{ site.conference.year }} Organising Committee
 		</p>
