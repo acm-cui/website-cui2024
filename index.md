@@ -71,6 +71,7 @@ menu:
 			<li>
 				<h3>Full papers</h3>
 				Abstracts and metadata due: 15th February 2024
+				Submissions due: 22nd February 2024
 			</li>
 
 			<li>
