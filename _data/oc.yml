@@ -1,0 +1,233 @@
+﻿conference:
+    label: Conference chairs
+    roles:
+        general:
+            label: General chairs
+            email: 'mailto:cui2024@cui.acm.org'
+            contact: true
+            people:
+              - name: Mateusz Dubiel
+                position: Research Associate
+                institution: University of Luxembourg
+                country: Luxembourg
+                image: mateusz-dubiel.jpg
+              - name: Luis A. Leiva
+                position: Assistant Professor
+                institution: University of Luxembourg
+                country: Luxembourg
+                image: luis-leiva.jpg
+              - name: Johanne Trippas
+                position: Research Fellow
+                institution: RMIT University
+                country: Australia
+                image: johanne-trippas.jpg
+        programme:
+            label: Programme chairs
+            email: 'mailto:cui2024-programme@cui.acm.org'
+            contact: true
+            people:
+              - name: Joel Fischer
+                position: Professor of HCI
+                institution: University of Nottingham
+                country: United Kingdom
+                image: joel-fischer.jpg
+              - name: Ilaria Torre
+                position: Research Associate
+                institution: KTH
+                country: Sweden
+                image: ilaria-torre.jpg
+        local:
+            label: Local Organisation chairs
+            email: 'mailto:cui2024-local@cui.acm.org'
+            contact: true
+            people:
+              - name: Peter Gilles
+                position: Full Professor
+                institution: University of Luxembourg
+                country: Luxembourg
+                image: peter-gilles.jpg
+              - name: Stefan Morana
+                position: Assistant Professor
+                institution: Saarland University
+                country: Germany
+                image: stefan-morana.jpg
+        registration:
+            label: Registration chair
+            email: 'mailto:cui2024-registration@cui.acm.org'
+            contact: true
+            people:
+              - name: Yanchao Yu
+                position: Assistant Professor
+                institution: Edinburgh Napier University
+                country: United Kingdom
+                image: yanchao-yu.jpg
+              - name: Christina Wei
+                position: PhD Student
+                institution: University of Toronto
+                country: Canada
+                image: christina-wei.jpg
+              - name: Amon Rapp
+                position: Assistant Professor
+                institution: University of Torino
+                country: Italy
+                image: amon-rapp.jpg
+        spc:
+            label: Sponsorship chair
+            email: 'mailto:cui2024-sponsor@cui.acm.org'
+            contact: true
+            people:
+              - name: Dimitra Anastasiou
+                position: Senior User Experience Researcher
+                institution: University of Luxembourg
+                country: Luxembourg
+                image: dimitra-anastasiou.jpg
+        sv:
+            label: Student Volunter chair
+            email: 'cui2024-sv@cui.acm.org'
+            contact: true
+            people:
+              - name: Justin Edwards
+                position: Research Associate
+                institution: University of Oulu
+                country: Finland
+                image: justin-edwards.jpg
+        diversity:
+            label: Diversity & Accessibility chairs
+            email: 'mailto:cui2024-diversity@cui.acm.org'
+            contact: true
+            people:
+              - name: Jaisie Sin
+                position: Postdoctoral Researcher
+                institution: University of British Columbia
+                country: Canada
+                image: jaisie-sin.jpg
+              - name: Rezvan Boostani
+                position: PhD Student
+                institution: University of Toronto
+                country: Canada
+                image: rezvan-boostani.jpg
+        socialmedia:
+            label: Social Media & Web chairs
+            email: 'mailto:cui2024-social@cui.acm.org'
+            contact: true
+            people:
+              - name: Leopold Hillah
+                position: PhD Candidate
+                institution: University of Luxembourg
+                country: Luxembourg
+                image: leopold-hillah.jpg
+              - name: Martin Porcheron
+                position: Senior User Experience Researcher
+                institution: Bold Insight UK
+                country: United Kingdom
+                image: martin-porcheron.jpg
+        virtual:
+            label: Virtual Experience chair
+            email: 'mailto:cui2024-virtual@cui.acm.org'
+            contact: true
+            people:
+              - name: Cosmin Munteanu
+                position: Associate Professor
+                institution: University of Waterloo
+                country: Canada
+                image: cosmin-munteanu.jpg
+
+
+tracks:
+    label: Track chairs
+    roles:
+        papers:
+            label: Papers chairs
+            email: 'mailto:cui2024-papers@cui.acm.org'
+            contact: true
+            people:
+              - name: Johannes Kiesel
+                position: Research Associate
+                institution: Bauhaus-Universität Weimar
+                country: Germany
+                image: johannes-kiesel.jpg
+              - name: Saul Albert
+                position: Lecturer
+                institution: Loughborough University
+                country: United Kingdom
+                image: saul-albert.jpg
+              - name: Robert Moore
+                position: Research Scientist
+                institution: IBM
+                country: USA
+                image: robert-moore.jpg
+        provocations:
+            label: Provocations chairs
+            email: 'mailto:cui2024-provocations@cui.acm.org'
+            contact: true
+            people:
+              - name: Heloisa Candello
+                position: Research Scientist
+                institution: IBM
+                country: Brazil
+                image: heloisa-candello.jpg
+              - name: Smit Desai
+                position: PhD Student
+                institution: University of Illinois Urbana-Champaign
+                country: USA
+                image: smit-desai.jpg
+        postersdemos:
+            label: Posters & Demos chairs
+            email: 'mailto:cui2024-postersdemos@cui.acm.org'
+            contact: true
+            people:
+              - name: Stephan Schlögl
+                position: Professor
+                institution: MCI - The Entrepreneurial School
+                country: Austria
+                image: stephan-schloegl.jpg
+              - name: Danai Korre
+                position: Research Associate
+                institution: University of Edinburgh
+                country: United Kingdom
+                image: danai-korre.jpg
+        workshops:
+            label: Workshops chairs
+            email: 'mailto:cui2024-workshops@cui.acm.org'
+            contact: true
+            people:
+              - name: Sasha Vtyurina
+                position: Research Scientist
+                institution: Zuva
+                country: Canada
+                image: sasha-vtyurina.jpg
+              - name: Christine Murad
+                position: PhD Student
+                institution: Toronto
+                country: Canada
+                image: christine-murad.jpg
+        dc:
+            label: Doctoral Consortium chairs
+            email: 'mailto:cui2024-dc@cui.acm.org'
+            contact: true
+            people:
+              - name: Martin Halvey
+                position: Associate Professor
+                institution: University of Strathclyde
+                country: United Kingdom
+                image: martin-halvey.jpg
+              - name: Leigh Clark
+                position: Senior User Experience Researcher
+                institution: Bold Insight UK
+                country: United Kingdom
+                image: leigh-clark.jpg
+              - name: Minha Lee
+                position: Assistant Professor
+                institution: TU Eindhoven
+                country: Netherlands
+                image: minha-lee.jpg
+              - name: Benjamin Cowan
+                position: Associate Professor
+                institution: University College Dublin
+                country: Ireland
+                image: benjamin-cowan.jpg
+              - name: Gary Hsieh
+                position: Associate Professor
+                institution: University of Washington
+                country: USA
+                image: gary-hsieh.jpg

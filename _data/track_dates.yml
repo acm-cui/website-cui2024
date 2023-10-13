@@ -1,0 +1,52 @@
+full_papers:
+  -  label: Abstracts and metadata due
+     date: 15th February 2024
+
+  -  label: Submissions due
+     date: 22nd February 2024
+     _extended_date: 29th February 2024
+
+  -  label: Reviews submitted to PCS due
+     date: 21st March 2024
+     _extended_date: 20th April 2024
+
+  -  label: First round of notifications
+     date: 28th March 2024
+     _extended_date: 4th April 2024
+
+  -  label: Resubmission of conditionally-accepted papers due
+     date: 18th April 2024
+     _extended_date: 9th May 2024
+
+  -  label: Re-reviews submitted to PCS due
+     date: 2nd May 2024
+     _extended_date: 16th May 2024
+
+  -  label: Final notifications
+     date: 9th May 2024
+     _extended_date: 16th May 2024
+
+  -  label: Camera ready/TAPS due
+     date: 30th May 2024
+     _extended_date: 20th June 2024
+
+short_papers:
+  -  label: Submissions due
+     date: 18th April 2024
+     _extended_date: 22nd April 2024
+
+  -  label: Notifications
+     date: 16th May 2024
+     _extended_date: 13th June 2024
+
+  -  label: Camera ready/TAPS due
+     date: 30th May 2024
+     _extended_date: 20th June 2024
+
+
+featured_talks:
+  -  label: Submissions due
+     date: 21st May 2024
+
+  -  label: Notifications
+     date: 4th June 2024
