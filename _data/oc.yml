@@ -83,7 +83,7 @@
                 image: dimitra-anastasiou.jpg
         sv:
             label: Student Volunter chair
-            email: 'cui2024-sv@cui.acm.org'
+            email: 'mailto:cui2024-sv@cui.acm.org'
             contact: true
             people:
               - name: Justin Edwards
