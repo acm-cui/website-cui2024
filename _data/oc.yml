@@ -52,7 +52,7 @@
                 country: Germany
                 image: stefan-morana.jpg
         registration:
-            label: Registration chair
+            label: Registration chairs
             email: 'mailto:cui2024-registration@cui.acm.org'
             contact: true
             people:
