@@ -73,8 +73,8 @@ liquid:
   strict_filters: true
 
 # SASS generation
-sass:
-    style: compressed
+#sass:
+#    style: compressed
 
 # Title generation from headings
 titles_from_headings:
