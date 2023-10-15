@@ -56,7 +56,7 @@ plugins_dir: ./_plugins
 plugins:
   - jekyll-feed
   - jekyll-last-modified-at
-  - jekyll-minifier
+#  - jekyll-minifier
   - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-sitemap
@@ -111,9 +111,9 @@ pagination:
   category: 'posts'
 
 # Exclude from minificartion
-jekyll-minifier:
-  compress_css: false
-  exclude: ['feed.xml', '*.ics', 'posters/*']
+#jekyll-minifier:
+#  compress_css: false
+#  exclude: ['feed.xml', '*.ics', 'posters/*']
 
 # Sitemap configuration
 defaults:
