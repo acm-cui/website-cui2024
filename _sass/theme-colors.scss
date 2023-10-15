@@ -24,7 +24,7 @@ header {
   
   &.open {
     background-color: $navpopup-toggler-bg;
-    background-image: $navpopup-toggler-icon-bg !important;
+    background-image: escape-svg($navpopup-toggler-icon-bg) !important;
   }
   
   &.close {
