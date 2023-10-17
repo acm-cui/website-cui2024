@@ -78,8 +78,8 @@
             people:
               - name: Dimitra Anastasiou
                 position: Senior Researcher
-                institution: LIST (Luxembourg Institute of Science and Technology)
-                country: <br>Luxembourg
+                institution: LIST (Luxembourg Institute<br>of Science and Technology)
+                country: Luxembourg
                 image: dimitra-anastasiou.jpg
         sv:
             label: Student Volunter chair
@@ -93,7 +93,7 @@
                 image: justin-edwards.jpg
               - name: Saja Aljuneidi
                 position: Research Associate
-                institution: OFFIS - Institute for Information Technology
+                institution: OFFIS - Institute for Information<br>Technology
                 country: Germany
                 image: saja-aljuneidi.jpg
         diversity:
