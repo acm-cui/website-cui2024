@@ -100,6 +100,10 @@ menu:
 			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-dk-none homepage-banner">
 			<img src="{{ "/assets/img/banner-sigchi-dk.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-lt-none homepage-banner">
 		</a>
+		<a href="https://cui.acm.org/community//" title="{{ site.conference.short_name }} {{ site.conference.year }} is part of the ACM CUI Community" class="flex-grow-1 flex-shrink-1 mt-3">
+			<img src="{{ "/assets/img/logo-cui.png" | relative_url }}" alt="The ACM CUI Community" title="{{ site.conference.short_name }} {{ site.conference.year }} is part of the ACM CUI Community" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+			<img src="{{ "/assets/img/logo-cui-dk.png" | relative_url }}" alt="The ACM CUI Community" title="{{ site.conference.short_name }} {{ site.conference.year }} is part of the ACM CUI Community" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
+		</a>
 	
 		<!--
 		
