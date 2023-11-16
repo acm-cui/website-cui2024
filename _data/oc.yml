@@ -41,11 +41,6 @@
             email: 'mailto:cui2024-local@cui.acm.org'
             contact: true
             people:
-              - name: Peter Gilles
-                position: Full Professor
-                institution: University of Luxembourg
-                country: Luxembourg
-                image: peter-gilles.jpg
               - name: Stefan Morana
                 position: Full Professor
                 institution: Saarland University
