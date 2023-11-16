@@ -11,7 +11,7 @@ track:
   dates: full_papers
 
 menus:
-  authors:
+  submit:
     title: Papers
     alt: Information about submitting to the Full Papers track at !!conference.short_name!! !!conference.year!!
     weight: 0
@@ -21,7 +21,7 @@ menus:
 
 We invite the submission of research papers from a broad range of disciplines, including human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology, and other cognate disciplines. We encourage the submission of high-quality replication studies in addition to well-designed studies with null results.
 
-Papers must describe original work that has not been previously published, not accepted for publication elsewhere, and is not simultaneously submitted or currently under review in another journal or conference (including [the other tracks of ACM CUI 2024](https://cui.acm.org/2024/submit/)).
+Papers must describe original work that has not been previously published, not accepted for publication elsewhere, and is not simultaneously submitted or currently under review in another journal or conference (including [the other tracks of ACM CUI 2024]({{ "/submit/" | relative_url }} "All submission tracks at CUI {{ site.conference.year }}")).
 
 <br>
 ## **Key dates**
@@ -52,7 +52,7 @@ ACM’s CCS concepts and keywords are not required for submission and peer revie
 
 ### **2. Submit your paper**
 
-You should submit your paper to the[ conference submission system](https://cui.acm.org/2024/submit/pcs/). You must include your title, abstract, author details, and an anonymised paper as a PDF. Please follow the[ SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide/) to make your submission accessible for all users.
+You should submit your paper to the[ conference submission system]({{ "/submit/pcs/" | relative_url }} "CUI {{ site.conference.year }} submission system"). You must include your title, abstract, author details, and an anonymised paper as a PDF. Please follow the[ SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide/) to make your submission accessible for all users.
 
 Submitting your article to an ACM Publication acknowledges that you and your co-authors are subject to all[ ACM Publications Policies](https://www.acm.org/publications/policies).
 
