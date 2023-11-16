@@ -8,7 +8,7 @@
 			<a class="nav-link text-center" href="{{ "/" | relative_url }}" title="The homepage for the {{ site.conference.year }} {{ site.conference.full_name }} conference">Home</a>
 		</li>
 
-    <!--{% if site.menus.authors %}
+    {% if site.menus.authors %}
 		<li class="nav-item dropdown py-md-2 py-1">
 			<a class="nav-link dropdown-toggle text-center" href="#" id="menuAuthorsLink" role="button" data-toggle="collapse" data-target="#menuAuthors" aria-haspopup="true" aria-expanded="false">
 				Submit
@@ -18,7 +18,7 @@
         {% include menu.html %}
 			</div>
 		</li>
-    {% endif %}-->
+    {% endif %}
 
     {% if site.menus.attendees %}
 		<li class="nav-item dropdown py-md-2 py-1">
