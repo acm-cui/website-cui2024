@@ -1,20 +1,21 @@
 ---
-label: Full Papers
-description: "The Full Papers track at !!conference.short_name!! !!conference.year!! is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines."
+label: Papers
+description: "The Papers track at !!conference.short_name!! !!conference.year!! is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines."
 
 cta:
   text: Submissions not yet open
   title: Submissions for the full papers track are not yet opened
   
 track:
-  chairs: full_papers
-  dates: full_papers
+  chairs: papers
+  dates: papers
 
 menus:
   submit:
     title: Papers
     alt: Information about submitting to the Full Papers track at !!conference.short_name!! !!conference.year!!
     weight: 0
+    is_track: true
 ---
 
 # **Papers at ACM CUI 2024**
@@ -43,18 +44,18 @@ All submissions will proceed through the following process. Please [contact the 
 
 ### **1. Prepare your paper**
 
-Submissions of research papers must be in English, in PDF format, anonymised using the[ CHI anonymization policy](https://chi2022.acm.org/for-authors/presenting/papers/chi-anonymization-policy/), and approximately **6,000-8,000 words** (including figures, tables, proofs, appendixes, and any other content excluding references and acknowledgments). Submissions above 8,000 or below 5,000 words will be considered for desk rejection. Papers whose lengths are incommensurate with their contributions will be rejected.
+Submissions of research papers must be in English, in PDF format, anonymised using the[ CHI anonymization policy](https://chi2024.acm.org/for-authors/presenting/papers/chi-anonymization-policy/ "CHI 2024 Anonymization Policy"), and approximately **6,000-8,000 words** (including figures, tables, proofs, appendixes, and any other content excluding references and acknowledgments). Submissions above 8,000 or below 5,000 words will be considered for desk rejection. Papers whose lengths are incommensurate with their contributions will be rejected.
 
-You must use the[ ACM LaTeX or Word templates](https://www.acm.org/publications/proceedings-template) to prepare your submission. We encourage the use of LaTeX and the official ACM template on[ Overleaf](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc). LaTeX users must employ the following document class for submission: `\documentclass[manuscript,screen,review,anonymous]{acmart}`. Word users must use[ the one-column submission template](https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word) and should be prepared to submit to TAPS _approximately one week earlier_ than the stated camera-ready deadline.
+You must use the[ ACM LaTeX or Word templates](https://www.acm.org/publications/proceedings-template) to prepare your submission. We encourage the use of LaTeX and the official ACM template on [Overleaf](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc). LaTeX users must employ the following document class for submission: <code>\documentclass[manuscript,screen,review,anonymous]{acmart}</code>. Word users must use[ the one-column submission template](https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word) and should be prepared to submit to TAPS _approximately one week earlier_ than the stated camera-ready deadline.
 
 ACM’s CCS concepts and keywords are not required for submission and peer review but are required if your paper is accepted and published by the ACM.
 
 
 ### **2. Submit your paper**
 
-You should submit your paper to the[ conference submission system]({{ "/submit/pcs/" | relative_url }} "CUI {{ site.conference.year }} submission system"). You must include your title, abstract, author details, and an anonymised paper as a PDF. Please follow the[ SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide/) to make your submission accessible for all users.
+You should submit your paper to the[ conference submission system]({{ "/submit/pcs/" | relative_url }} "CUI {{ site.conference.year }} submission system"). You must include your title, abstract, author details, and an anonymised paper as a PDF. Please follow the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide/) to make your submission accessible for all users.
 
-Submitting your article to an ACM Publication acknowledges that you and your co-authors are subject to all[ ACM Publications Policies](https://www.acm.org/publications/policies).
+Submitting your article to an ACM Publication acknowledges that you and your co-authors are subject to all [ACM Publications Policies](https://www.acm.org/publications/policies).
 
 
 ### **3. Await reviews**
