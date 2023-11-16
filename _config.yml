@@ -43,7 +43,7 @@ permalink: /blog/:year/:month/:day/:title/
 # Social settings
 social:
     browser:
-        theme_colour: 2B48A9
+        theme_colour: 00a3de
     twitter:
         username: ACM_CUI
         card: /assets/img/twittercard.png
