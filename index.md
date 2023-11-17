@@ -68,14 +68,14 @@ menu:
 		<ul>
 
 			<li>
-				<h3>Full papers</h3>
+				<h3><a href="{{ "/submit/papers/" | relative_url }}" title="Full papers">Full Papers</a></h3>
 				Abstracts and metadata due: 15th February 2024
 				Submissions due: 22nd February 2024
 			</li>
 
 			<li>
 				<h3>Short Papers (Provocations, Posters, Demos)</h3>
-				Submissions due: 18th April 2024
+				Submissions due: 11th April 2024
 			</li>
 
 			<li>
@@ -85,7 +85,7 @@ menu:
 
 			<li>
 				<h3>Doctoral Consortium</h3>
-				Submissions due: 18th April 2024
+				Submissions due: 11th April 2024
 			</li>
 		</ul>
 		</p>
