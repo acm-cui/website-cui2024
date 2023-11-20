@@ -46,6 +46,11 @@
                 institution: Saarland University
                 country: Germany
                 image: stefan-morana.jpg
+              - name: Rita Giannini
+                position: Events Administrator
+                institution: University of Luxembourg
+                country: Luxembourg
+                image: rita-giannini.jpg  
         registration:
             label: Registration chairs
             email: 'mailto:cui2024-registration@cui.acm.org'
