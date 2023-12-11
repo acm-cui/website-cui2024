@@ -23,7 +23,7 @@ menus:
 lastmod: page
 ---
 
-# Provocation paper submission information
+# Provocations
 
 Provocations at CUI are original and unpublished contributions. A compelling provocation is succinct yet potent, encapsulating a daring, thought-provoking idea or proposal. It should be a catalyst, igniting robust debate and stimulating a rich exchange of ideas among conference attendees. Provocations challenge the status quo, dare to push conventionality, and are willing to incite strong reactions or dissent. Through such provocations, we aim to unsettle comfortable paradigms, question established wisdom, and spur academic curiosity in the domain of conversational user interfaces. We encourage out-of-the-box or even controversial ideas to be proposed through provocation. Submissions addressing the theme of CUI 2024 of “Trustworthy Conversational Agents” are encouraged but not required. 
 

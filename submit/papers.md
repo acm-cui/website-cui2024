@@ -19,7 +19,7 @@ menus:
     is_track: true
 ---
 
-# **Papers at ACM CUI 2024**
+# **Papers**
 
 We invite the submission of research papers from a broad range of disciplines, including human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology, and other cognate disciplines. We encourage the submission of high-quality replication studies in addition to well-designed studies with null results.
 
