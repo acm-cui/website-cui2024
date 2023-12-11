@@ -68,13 +68,13 @@ menu:
 		<ul>
 
 			<li>
-				<h3 class="mb-0"><a href="{{ "/submit/papers/" | relative_url }}" title="Full papers">Full Papers</a></h3>
+				<h3 class="mb-0"><a href="{{ "/submit/papers/" | relative_url }}" title="CUI {{ site.conference.year }} Full papers track information">Full Papers</a></h3>
 				Abstracts and metadata due: 15th February 2024<br>
 				Submissions due: 22nd February 2024
 			</li>
 
 			<li>
-				<h3 class="mb-0">Short Papers (Provocations, Posters, Demos)</h3>
+				<h3 class="mb-0">Short Papers (<a href="{{ "/submit/provocations/" | relative_url }}" title="CUI {{ site.conference.year }} Provocations track information">Provocations</a>, Posters, Demos)</h3>
 				Submissions due: 11th April 2024
 			</li>
 
