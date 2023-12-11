@@ -5,7 +5,7 @@ description: "The Papers track at !!conference.short_name!! !!conference.year!! 
 cta:
   text: Submit a paper
   title: Submissions for the full papers track are open now
-  link: /submit/pcs/
+  link: /2024/submit/pcs/
 
 track:
   chairs: papers
