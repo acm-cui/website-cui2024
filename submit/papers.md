@@ -3,9 +3,10 @@ label: Papers
 description: "The Papers track at !!conference.short_name!! !!conference.year!! is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines."
 
 cta:
-  text: Submmit a paper
+  text: Submit a paper
   title: Submissions for the full papers track are open now
-  
+  link: /submit/pcs/
+
 track:
   chairs: papers
   dates: papers
