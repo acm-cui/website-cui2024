@@ -2,7 +2,7 @@
 label: Submission system
 description: Go to the PCS submission system.
 layout: redirection
-target: https://new.precisionconference.com/submissions
+target: https://new.precisionconference.com/submissions?focus=cui24
 
 menus:
   submit:
