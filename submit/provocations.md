@@ -23,7 +23,7 @@ menus:
 lastmod: page
 ---
 
-# Provocations
+# Provocations at CUI 2024
 
 Provocations at CUI are original and unpublished contributions. A compelling provocation is succinct yet potent, encapsulating a daring, thought-provoking idea or proposal. It should be a catalyst, igniting robust debate and stimulating a rich exchange of ideas among conference attendees. Provocations challenge the status quo, dare to push conventionality, and are willing to incite strong reactions or dissent. Through such provocations, we aim to unsettle comfortable paradigms, question established wisdom, and spur academic curiosity in the domain of conversational user interfaces. We encourage out-of-the-box or even controversial ideas to be proposed through provocation. Submissions addressing the theme of CUI 2024 of “Trustworthy Conversational Agents” are encouraged but not required. 
 
@@ -81,10 +81,7 @@ All ACM publications follow the [Green Open Access route by default](https://www
 
 ### 5. Present your work
 
-Authors will be given an oral presentation slot at the conference. The specific details of this presentation will be provided closer to the conference.
-
-Your paper will be published in the CUI Proceedings in the [ACM Digital Library](http://dl.acm.org/ "ACM Digital Library"). [SIGCHI](https://sigchi.org " ACM Special Interest Group on Computer-Human Interaction") participates in the [ACM Open Table of Contents (OpenTOC)](https://www.acm.org/publications/openaccess "ACM Open Access information") service, which means papers will be freely available from this website for the first year after publication.
-
+Authors will be given the opportunity to present their posters at CUI {{ site.conference.year }}. The specific details of this presentation will be provided closer to the conference.
 
 ## Questions?
 
