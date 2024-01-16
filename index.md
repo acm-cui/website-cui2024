@@ -45,6 +45,7 @@ menu:
       <li>Conversational agent evaluation metrics and methodologies</lI>
       <li>Innovative use cases and applications of trustworthy CAs</lI>
       <li>Human-AI collaboration and co-creation for CAs</lI>
+      <li>Large Language Models (LLMs)</lI>
     </ul>
 		
 		<p>
