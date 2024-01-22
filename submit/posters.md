@@ -5,9 +5,9 @@ description: Posters at CUI !!conference.year!! are short papers that present ea
 splash_title: Posters<br>at CUI !!conference.year!!
 
 cta:
-  text: Submissions open soon
-  title: The submission deadline for the posters track is not yet open
-#  link: /2023/submit/pcs/
+  text: Submit a poster
+  title: Submissions for the posters track are open now
+  link: /2024/submit/pcs/
   
 track:
   chairs: postersdemos

@@ -5,9 +5,9 @@ description: Demos at CUI !!conference.year!! are interactive contributions aimi
 splash_title: Demos<br>at CUI !!conference.year!!
 
 cta:
-  text: Submissions open soon
-  title: The submission deadline for the demos track is not yet open
-#  link: /2023/submit/pcs/
+  text: Submit a demo
+  title: Submissions for the demos track are open now
+  link: /2024/submit/pcs/
   
 track:
   chairs: postersdemos
