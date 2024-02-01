@@ -28,7 +28,7 @@ Papers must describe original work that has not been previously published, not a
 ## Key dates
 
 {% for date in site.data.track_dates[page.track.dates] -%}
-{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike>{{ date.date }}</strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
+{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
 {%- endfor -%}
 
 _All deadlines are at [23:59 Anywhere on Earth](https://time.is/Anywhere_on_Earth)_
