@@ -55,6 +55,18 @@ short_papers:
      date: Thursday 23rd May 2024
      _extended_date: 20th June 2024
 
+workshops:
+  -  label: Submissions due
+     date: Thursday 7th March 2024
+
+  -  label: Notifications
+     date: Thursday 28th March 2024
+
+  -  label: Camera ready/TAPS due
+     date: Thursday 18th April 2024
+
+  -  label: Workshops
+     date: TBD
 
 featured_talks:
   -  label: Submissions due

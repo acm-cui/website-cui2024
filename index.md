@@ -80,7 +80,7 @@ menu:
 			</li>
 
 			<li>
-				<h3 class="mb-0">Workshop proposals</h3>
+				<h3 class="mb-0"><a href="{{ "/submit/workshops/" | relative_url }}" title="CUI {{ site.conference.year }} Workshop track information">Workshop proposals</a></h3>
 				Submissions due: 7th March 2024
 			</li>
 
