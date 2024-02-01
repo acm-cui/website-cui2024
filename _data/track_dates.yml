@@ -1,10 +1,11 @@
 full_papers:
   -  label: Abstracts and metadata due
-     date: 15th February 2024
+     date: 15th
+     extended_date: 22nd February 2024
 
   -  label: Submissions due
-     date: 22nd February 2024
-     _extended_date: 29th February 2024
+     date: 22nd
+     extended_date: 29th February 2024
 
   -  label: Reviews submitted to PCS due
      date: 21st March 2024
