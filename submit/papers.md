@@ -31,7 +31,7 @@ Papers must describe original work that has not been previously published, not a
 {{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
 {%- endfor -%}
 
-_All deadlines are at [23:59 Anywhere on Earth](https://time.is/Anywhere_on_Earth)_
+<em class="small">All deadlines are at <a href="https://time.is/Anywhere_on_Earth" title="The current time in 'Anywhere on Earth'">23:59 Anywhere on Earth</a></em>
 
 
 ## The process

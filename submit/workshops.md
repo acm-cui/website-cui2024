@@ -24,17 +24,17 @@ menus:
 lastmod: page
 ---
 
-# Workshop Call
+# Workshops
 
 To propose a workshop, you should write a proposal about the topic and your plans for the workshop. If accepted, you will be expected to lead the organisation of the workshop. At least one workshop organiser is expected to attend the conference. Workshops can be planned to be entirely in-person or in hybrid mode. 
 
 ## Key dates
 
 {% for date in site.data.track_dates[page.track.dates] -%}
-{{ date.label }}: {% if date.extended_date %}<strike>{{ date.date }}</strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br>
+{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
 {%- endfor -%}
 
-<em class="small"><br>All deadlines are at <a href="https://time.is/Anywhere_on_Earth" title="The current time in 'Anywhere on Earth'">23:59 Anywhere on Earth</a></em>
+<em class="small">All deadlines are at <a href="https://time.is/Anywhere_on_Earth" title="The current time in 'Anywhere on Earth'">23:59 Anywhere on Earth</a></em>
 
 ## The process
 

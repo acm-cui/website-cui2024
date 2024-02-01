@@ -23,7 +23,7 @@ menus:
 lastmod: page
 ---
 
-# Demos at ACM CUI 2024
+# Demos
 
 We invite the submission of demos from a broad range of disciplines, including human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology, and other cognate disciplines.
 

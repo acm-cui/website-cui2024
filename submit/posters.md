@@ -23,7 +23,7 @@ menus:
 lastmod: page
 ---
 
-# Posters at ACM CUI 2024
+# Posters
 
 We invite the submission of posters from a broad range of disciplines, including human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology, and other cognate disciplines. 
 
