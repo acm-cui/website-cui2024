@@ -2,10 +2,12 @@ papers:
   -  label: Abstracts and metadata due
      date: Thursday 15th
      extended_date: Thursday 22nd February 2024
+     homepage: true
 
   -  label: Submissions due
      date: Thursday 22nd
      extended_date: Thursday 29th February 2024
+     homepage: true
 
   -  label: Notifications sent
      date: Thursday 28th March 2024
@@ -25,6 +27,7 @@ papers:
 provocations:
   -  label: Submissions due
      date: Thursday 11th April 2024
+     homepage: true
 
   -  label: Notifications
      date: Thursday 9th May 2024
@@ -36,6 +39,7 @@ short_papers:
   -  label: Submissions due
      date: Thursday 11th April 2024
      _extended_date: 22nd April 2024
+     homepage: true
 
   -  label: Notifications
      date: Thursday 9th May 2024
@@ -48,6 +52,7 @@ short_papers:
 workshops:
   -  label: Submissions due
      date: Thursday 7th March 2024
+     homepage: true
 
   -  label: Notifications
      date: Thursday 28th March 2024
@@ -61,6 +66,7 @@ workshops:
 featured_talks:
   -  label: Submissions due
      date: 21st May 2024
+     homepage: true
 
   -  label: Notifications
      date: 4th June 2024

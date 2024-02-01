@@ -70,23 +70,39 @@ menu:
 
 			<li>
 				<h3 class="mb-0"><a href="{{ "/submit/papers/" | relative_url }}" title="CUI {{ site.conference.year }} Full papers track information">Full Papers</a></h3>
-				Abstracts and metadata due: 15th February 2024<br>
-				Submissions due: 22nd February 2024
+				{% for date in site.data.track_dates['papers'] -%}
+				{% if date.homepage %}
+				{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
+				{% endif %}
+				{%- endfor -%}
 			</li>
 
 			<li>
 				<h3 class="mb-0">Short Papers (<a href="{{ "/submit/provocations/" | relative_url }}" title="CUI {{ site.conference.year }} Provocations track information">Provocations</a>, <a href="{{ "/submit/posters/" | relative_url }}" title="CUI {{ site.conference.year }} Posters track information">Posters</a>, <a href="{{ "/submit/demos/" | relative_url }}" title="CUI {{ site.conference.year }} Demos track information">Demos</a>)</h3>
-				Submissions due: 11th April 2024
+				{% for date in site.data.track_dates['short_papers'] -%}
+				{% if date.homepage %}
+				{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
+				{% endif %}
+				{%- endfor -%}
 			</li>
 
 			<li>
 				<h3 class="mb-0"><a href="{{ "/submit/workshops/" | relative_url }}" title="CUI {{ site.conference.year }} Workshop track information">Workshop proposals</a></h3>
-				Submissions due: 7th March 2024
+				{% for date in site.data.track_dates['workshops'] -%}
+				{% if date.homepage %}
+				{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
+				{% endif %}
+				{%- endfor -%}
 			</li>
 
 			<li>
 				<h3 class="mb-0">Doctoral Consortium</h3>
 				Submissions due: 11th April 2024
+				{% for date in site.data.track_dates['doctoral_consortium'] -%}
+				{% if date.homepage %}
+				{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
+				{% endif %}
+				{%- endfor -%}
 			</li>
 		</ul>
 		</p>
