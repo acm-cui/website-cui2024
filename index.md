@@ -61,14 +61,15 @@ menu:
 			{{ site.conference.short_name }} {{ site.conference.year }} Organising Committee
 		</p>
 
-		<hr>
+		<hr class="mt-4">
 
 		<h2>Submission Dates</h2>
 
-		<p>
+		<p class="pt-2">
 		<em class="small">All deadlines are at <a href="https://time.is/Anywhere_on_Earth" title="The current time in 'Anywhere on Earth'">23:59 Anywhere on Earth</a></em>
+		</p>
 
-		<ul>
+		<ul class="list-unstyled">
 
 			<li>
 				<h3 class="mb-0"><a href="{{ "/submit/papers/" | relative_url }}" title="CUI {{ site.conference.year }} Papers track information">Papers</a></h3>
@@ -79,7 +80,7 @@ menu:
 				{%- endfor -%}
 			</li>
 
-			<li>
+			<li class="pt-3">
 				<h3 class="mb-0">Short Papers (<a href="{{ "/submit/provocations/" | relative_url }}" title="CUI {{ site.conference.year }} Provocations track information">Provocations</a>, <a href="{{ "/submit/posters/" | relative_url }}" title="CUI {{ site.conference.year }} Posters track information">Posters</a>, <a href="{{ "/submit/demos/" | relative_url }}" title="CUI {{ site.conference.year }} Demos track information">Demos</a>)</h3>
 				{% for date in site.data.track_dates['short_papers'] -%}
 				{% if date.homepage %}
@@ -88,8 +89,8 @@ menu:
 				{%- endfor -%}
 			</li>
 
-			<li>
-				<h3 class="mb-0"><a href="{{ "/submit/workshops/" | relative_url }}" title="CUI {{ site.conference.year }} Workshop track information">Workshop proposals</a></h3>
+			<li class="pt-3">
+				<h3 class="mb-0"><a href="{{ "/submit/workshops/" | relative_url }}" title="CUI {{ site.conference.year }} Workshop track information">Workshops</a></h3>
 				{% for date in site.data.track_dates['workshops'] -%}
 				{% if date.homepage %}
 				{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
@@ -97,9 +98,8 @@ menu:
 				{%- endfor -%}
 			</li>
 
-			<li>
+			<li class="pt-3">
 				<h3 class="mb-0">Doctoral Consortium</h3>
-				Submissions due: 11th April 2024
 				{% for date in site.data.track_dates['doctoral_consortium'] -%}
 				{% if date.homepage %}
 				{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
@@ -107,7 +107,6 @@ menu:
 				{%- endfor -%}
 			</li>
 		</ul>
-		</p>
 	</div>
 
 	<div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start flex-wrap">
