@@ -6,9 +6,9 @@ lastmod:
   file: oc.yml
 
 menus:
-  organisation:
-    title: Organising Committee
-    alt: Volunteers leading the organisation and running of !!conference.full_name!! !!conference.year!!
+  organisers:
+    text: Organising Committee
+    title: Volunteers leading the organisation and running of !!conference.full_name!! !!conference.year!!
     weight: 0
 ---
 

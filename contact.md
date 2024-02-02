@@ -4,7 +4,8 @@ description: Contact details for !!conference.short_name!! !!conference.year!!.
 lastmod: page
 menu:
   main:
-    title: Contact
+    text: Contact
+    title: Contact the CUI !!conference.year!! General Chairs
     weight: 10
 ---
 

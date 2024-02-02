@@ -13,8 +13,8 @@ track:
 
 menus:
   submit:
-    title: Papers
-    alt: Information about submitting to the Full Papers track at !!conference.short_name!! !!conference.year!!
+    text: Papers
+    title: Information about submitting to the Full Papers track at !!conference.short_name!! !!conference.year!!
     weight: 0
     is_track: true
 ---

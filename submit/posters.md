@@ -15,8 +15,8 @@ track:
 
 menus:
   submit:
-    title: Posters
-    alt: Information about submitting to the posters track at CUI !!conference.year!!
+    text: Posters
+    title: Information about submitting to the posters track at CUI !!conference.year!!
     weight: 2
     is_track: true
 

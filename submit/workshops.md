@@ -15,8 +15,8 @@ track:
 
 menus:
   submit:
-    title: Workshops
-    alt: Information about propsing a workshops at CUI !!conference.year!!
+    text: Workshops
+    title: Information about propsing a workshops at CUI !!conference.year!!
     weight: 4
     is_track: true
     sep_before: true

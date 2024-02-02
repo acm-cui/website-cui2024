@@ -5,9 +5,11 @@ description: >
   The International ACM Conversational User Interfaces conference for !!conference.year!! will take place in !!conference.location!! from !!conference.dates!!.
 
 lastmod: page
+
 menu:
   main:
-    title: Home
+    text: Home
+    title: CUI !!conference.year!! homepage
     weight: 1
 ---
 

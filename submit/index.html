@@ -8,8 +8,9 @@ splash_title: Submit to CUI !!conference.year!!
 lastmod: page
 menu:
   main:
-    title: Submit
-    weight: 6
+    text: Submit
+    title: Information about submitting to CUI !!conference.year!!
+    weight: 2
     identifier: submit
 ---
 
@@ -22,7 +23,7 @@ menu:
     {% if item.is_track != true %}{% continue %}{% endif %}
     <li>
         <a class="" href="{{ item.url | absolute_url }}" title="{{ item.alt | escape | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
-            {{ item.title }}
+            {{ item.text }}
         </a>
     </li>
 {% endfor %}

@@ -15,8 +15,8 @@ track:
 
 menus:
   submit:
-    title: Provocations
-    alt: Information about submitting to the provocations track at CUI !!conference.year!!
+    text: Provocations
+    title: Information about submitting to the provocations track at CUI !!conference.year!!
     weight: 1
     is_track: true
 

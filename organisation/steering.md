@@ -1,12 +1,12 @@
 ---
 label: Steeing Committee
-description: Visit the website for the Conversational User Interfaces conference series Steering Committee.
+description: Visit the website for the Conversational User Interfaces Steering Committee.
 layout: redirection
-target: https://cui.acm.org/sc/
+target: https://cui.acm.org/community/sc/members/
 
 menus:
-  organisation:
-    title: Steering Committee
-    alt: Visit the website for the Conversational User Interfaces conference series Steering Committee
+  organisers:
+    text: Steering Committee
+    title: Visit the website for the Conversational User Interfaces Steering Committee
     weight: 3
 ---

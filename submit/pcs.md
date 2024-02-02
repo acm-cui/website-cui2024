@@ -6,8 +6,8 @@ target: https://new.precisionconference.com/submissions?focus=cui24
 
 menus:
   submit:
-    title: PCS login
-    alt: Go to the submission system for CUI !!conference.year!!
+    text: PCS login
+    title: Go to the submission system for CUI !!conference.year!!
     sep_before: true
     weight: 9
 

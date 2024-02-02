@@ -15,8 +15,8 @@ track:
 
 menus:
   submit:
-    title: Demos
-    alt: Information about submitting to the demos track at CUI !!conference.year!!
+    text: Demos
+    title: Information about submitting to the demos track at CUI !!conference.year!!
     weight: 3
     is_track: true
 
