@@ -61,15 +61,15 @@ menu:
 
 		<hr>
 
-		<h2>Tentative Submission Dates</h2>
+		<h2>Submission Dates</h2>
 
 		<p>
-		Note: All dates are in the AoE (Anywhere on Earth) timezone.
+		<em class="small">All deadlines are at <a href="https://time.is/Anywhere_on_Earth" title="The current time in 'Anywhere on Earth'">23:59 Anywhere on Earth</a></em>
 
 		<ul>
 
 			<li>
-				<h3 class="mb-0"><a href="{{ "/submit/papers/" | relative_url }}" title="CUI {{ site.conference.year }} Full papers track information">Full Papers</a></h3>
+				<h3 class="mb-0"><a href="{{ "/submit/papers/" | relative_url }}" title="CUI {{ site.conference.year }} Papers track information">Papers</a></h3>
 				{% for date in site.data.track_dates['papers'] -%}
 				{% if date.homepage %}
 				{{ date.label }}: <br class="d-md-none">{% if date.extended_date %}<strike><em>{{ date.date }}</em></strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br><br {% unless forloop.last %}class="d-md-none"{% endunless %}>
