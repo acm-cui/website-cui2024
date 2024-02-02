@@ -74,4 +74,4 @@ Authors will be given an oral presentation slot at the conference. The specific 
 
 ## Questions?
 
-If you have any questions, please [contact the Papers chairs](mailto:cui2024-papers@cui.acm.org), Johannes Kiesel, Saul Albert, and Robert Moore for support.
+{% for group in site.data.oc -%} {%- for role in group[1]['roles'] -%} {%- if role[0] == page.track.chairs -%} If you have any questions, please contact the [{{ role[1].label }}]({{ role[1].email }}), {% assign use_and = role[1]['people'] | size | plus: -1 -%} {%- for person in role[1]['people'] -%} {{- person.name -}} {%- if forloop.index == use_and %}{% if forloop.length > 2 %},{% endif %} and {% else -%}{%- unless forloop.last %}, {% endunless -%}{%- endif -%} {%- endfor %}, for support. {%- break -%} {%- endif -%} {%- endfor -%} {%- endfor -%}
