@@ -63,6 +63,11 @@ workshops:
   -  label: Workshops
      date: Monday 8th July 2024
 
+doctoral_consortium:
+  -  label: Submissions due
+     date: 11th April 2024
+     homepage: true
+
 featured_talks:
   -  label: Submissions due
      date: 21st May 2024
