@@ -21,9 +21,9 @@ gem 'nokogiri'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-datapage-generator", "~> 1.4.0"
+  gem "jekyll-datapage-generator", "~> 134.0"
   gem "jekyll-last-modified-at"
-  gem 'jekyll-minifier', "~> 0.1.10"
+  gem 'jekyll-minifier'
   gem 'jekyll-optional-front-matter'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-redirect-from'
