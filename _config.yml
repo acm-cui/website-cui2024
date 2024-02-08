@@ -54,7 +54,6 @@ social:
 # Build settings
 plugins_dir: ./_plugins
 plugins:
-  - jekyll-last-modified-at
   - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-sitemap
