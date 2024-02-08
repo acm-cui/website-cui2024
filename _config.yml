@@ -54,17 +54,12 @@ social:
 # Build settings
 plugins_dir: ./_plugins
 plugins:
-  - jekyll-feed
   - jekyll-last-modified-at
-#  - jekyll-minifier
   - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-menus
-#  - jekyll-datapage-generator
-#  - jekyll-target-blank
-#  - jekyll-github-metadata
 
 # Liquid config
 liquid:
