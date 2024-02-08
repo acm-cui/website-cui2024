@@ -15,10 +15,12 @@ $primary:                             #00A1DE;
 $link-color:                          #ffffff;
 $link-hover-color:                    #ffffff;
 
-$nav-bg:                              rgba(#0d1117, 0.2);
-$nav-bg-sm:                           rgba(#0d1117, 0.5);
+$nav-bg:                              rgba(#0d1117, 0.4);
+$nav-item-bg:                         rgba(#0d1117, 0.4);
+$nav-bg-md:                           rgba(#0d1117, 0.5);
 $nav-bg-fx:                           rgba(#0d1117, 0.95);
-$nav-bg-filter:                       saturate(180%) blur(20px);
+$nav-bg-filter:                       saturate(140%) blur(40px);
+$nav-bg-md-filter:                    saturate(180%) blur(20px);
 $nav-border:                          0;
 
 $nav-item-border:                     1px solid rgba(#000000, 0.05);
