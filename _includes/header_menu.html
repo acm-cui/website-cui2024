@@ -1,44 +1,46 @@
 <button class="navbar-toggler navpopup-toggler open d-md-none d-block" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-haspopup="true" aria-expanded="true" aria-label="Toggle navigation"></button>
-	
-<nav class="navbar navbar-expand-md nav-inisible h-100 p-0 shadow" id="navbarSupportedContent">
-	<button class="navpopup-toggler close d-md-none d-block rounded" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-haspopup="true" aria-expanded="true" aria-label="Toggle navigation"></button>
 
-	<ul class="navbar-nav flex-md-grow-0 flex-grow-1 mx-auto">
-		{% for item in site.menus.main %}
-			{%- assign is_active = false -%}
-			{%- if page.url == item.url -%}
-				{%- assign is_active = true -%}
-			{%- else -%}
-				{%- for item in item.children -%}
-					{%- if page.url == item.url -%}
-						{%- assign is_active = true -%}
-						{%- break -%}
-					{%- endif -%}
-				{%- endfor -%}
-			{%- endif -%}
+<div class="d-flex justify-content-center nav-container">
+	<nav class="navbar navbar-expand-md nav-inisible h-100 p-0 shadow" id="navbarSupportedContent">
+		<button class="navpopup-toggler close d-md-none d-block rounded" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-haspopup="true" aria-expanded="true" aria-label="Toggle navigation"></button>
+
+		<ul class="navbar-nav mx-md-3 mx-5 mx-auto w-50">
+			{% for item in site.menus.main %}
+				{%- assign is_active = false -%}
+				{%- if page.url == item.url -%}
+					{%- assign is_active = true -%}
+				{%- else -%}
+					{%- for item in item.children -%}
+						{%- if page.url == item.url -%}
+							{%- assign is_active = true -%}
+							{%- break -%}
+						{%- endif -%}
+					{%- endfor -%}
+				{%- endif -%}
 
 
-			{%- if item.children -%}
-				<li class="nav-item dropdown py-md-3 px-2 py-2">
-					<a class="nav-link dropdown-toggle text-center" href="#" id="menu{{ forloop.index }}Link" role="button" data-toggle="collapse" data-target="#menu{{ forloop.index }}" aria-haspopup="true" aria-expanded="false" title="{{ item.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
-						{{- item.text | escape -}}
-					</a>
-					<div class="dropdown-menu shadow-md text-md-left text-center mx-md-0 mx-4 p-0 collapse" aria-labelledby="menu{{ forloop.index }}Link" id="menu{{ forloop.index }}">
-						{% for subitem in item.children %}
-							{% if subitem.sep_before %}<div class="dropdown-divider"></div>{% endif %}
-							<a class="dropdown-item dropdown-item-{{ loop.index }} py-md-1 py-2" href="{{ subitem.url | relative_url }}" title="{{ subitem.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
-								{{ subitem.text }}
-							</a>
-						{% endfor %}
-					</div>
-				</li>
-			{% else %}
-				<li class="nav-item py-md-3 px-2 py-2">
-					<a class="nav-link text-center" href="{{ item.url | relative_url }}" title="{{ item.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">{{- item.text | escape -}}</a>
-				</li>
-			{% endif %}
-		{%- endfor -%}
-	</ul>
-	
-	<div class="align-self-stretch"></div>
-</nav>
+				{%- if item.children -%}
+					<li class="nav-item dropdown pl-md-0 {% unless forloop.last %}pr-md-3 {% else %}pr-md-0 {% endunless %}px-3 py-md-3 py-2">
+						<a class="nav-link dropdown-toggle text-center px-3 py-2 rounded-pill" href="#" id="menu{{ forloop.index }}Link" role="button" data-toggle="collapse" data-target="#menu{{ forloop.index }}" aria-haspopup="true" aria-expanded="false" title="{{ item.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+							{{- item.text | escape -}}
+						</a>
+						<div class="dropdown-menu shadow-md text-md-left text-center mt-md-0 mt-3 p-0 collapse" aria-labelledby="menu{{ forloop.index }}Link" id="menu{{ forloop.index }}">
+							{% for subitem in item.children %}
+								{% if subitem.sep_before %}<div class="dropdown-divider"></div>{% endif %}
+								<a class="dropdown-item dropdown-item-{{ loop.index }} py-md-1 py-2" href="{{ subitem.url | relative_url }}" title="{{ subitem.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+									{{ subitem.text }}
+								</a>
+							{% endfor %}
+						</div>
+					</li>
+				{% else %}
+					<li class="nav-item pl-md-0 {% unless forloop.last %}pr-md-3 {% else %}pr-md-0 {% endunless %}px-3 py-md-3 py-2">
+						<a class="nav-link text-center px-3 py-2 rounded-pill" href="{{ item.url | relative_url }}" title="{{ item.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">{{- item.text | escape -}}</a>
+					</li>
+				{% endif %}
+			{%- endfor -%}
+		</ul>
+		
+		<div class="align-self-stretch"></div>
+	</nav>
+</div>
