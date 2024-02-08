@@ -125,7 +125,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-last-modified-at
   jekyll-menus!
-  jekyll-minifier (~> 0.1.10)
+  jekyll-minifier
   jekyll-optional-front-matter
   jekyll-paginate-v2
   jekyll-redirect-from
