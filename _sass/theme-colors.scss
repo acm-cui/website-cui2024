@@ -37,6 +37,7 @@ nav {
   -webkit-backdrop-filter: $nav-bg-filter;
   backdrop-filter: $nav-bg-filter;
   
+
   .nav-link {
     background-color: $nav-item-bg;
     -webkit-backdrop-filter: $nav-bg-filter;
@@ -45,6 +46,12 @@ nav {
     
     @include hover-focus() {
       color: $navbar-hover-color;
+    }
+  }
+
+  .nav-item:hover {
+      .nav-link {
+      background-color: $nav-item-bg-hover;
     }
   }
   
@@ -189,10 +196,10 @@ blockquote {
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
     header {
-      background: linear-gradient(180deg, rgba($body-bg,0) 70%, rgba($body-bg,1) 95%), map-get($header-bg-imgs, $breakpoint);
+      background: linear-gradient(180deg, rgba($body-bg,0) 50%, rgba($body-bg,1) 95%), map-get($header-bg-imgs, $breakpoint);
       
       .logo {
-        background-image: linear-gradient(180deg, rgba($body-bg,0) 90%, rgba($body-bg,1) 95%), map-get($header-fg-imgs, $breakpoint);
+        background-image: linear-gradient(180deg, rgba($body-bg,0) 70%, rgba($body-bg,1) 95%), map-get($header-fg-imgs, $breakpoint);
       }
     }
   }

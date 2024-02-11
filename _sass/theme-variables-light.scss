@@ -6,6 +6,7 @@ $primary:                             #00A1DE;
 
 $nav-bg:                              rgba(#59595c, 0.2);
 $nav-item-bg:                         rgba(#ffffff, 0.6);
+$nav-item-bg-hover:                   rgba(#ffffff, 0.8);
 $nav-bg-md:                           rgba(#ffffff, 0.3);
 $nav-bg-fx:                           rgba(#ffffff, 0.9);
 $nav-bg-filter:                       saturate(140%) blur(40px);
@@ -52,7 +53,7 @@ $header-logo-hs: (
 $main-mt: (
   xs: 107.5px,
   sm: 130px,
-  md: 178px,
+  md: 155px,
   lg: 218px,
   xl: 253px
 );
