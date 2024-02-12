@@ -7,7 +7,7 @@ splash_title: Doctoral Consortium<br>at CUI !!conference.year!!
 cta:
   text: Apply
   title: Applications for the CUI 2024 are open now Doctoral Consortium
-  link: mailto:cui2024@cui.acm.org
+  link: mailto:cui2024-dc@cui.acm.org
   
 track:
   chairs: dc
@@ -59,7 +59,7 @@ The application should be submitted as a single pdf file (max. 2 pages) outlinin
 
 ### 2. Submit your application
 
-You should submit your application by email to [cui2024@cui.acm.org](mailto:cui2024@cui.acm.org), making sure to include your full name, affiliation, and preferred contact email in the submission email text, as well as your extended abstract.
+You should submit your application by email to [cui2024-dc@cui.acm.org](mailto:cui2024-dc@cui.acm.org), making sure to include your full name, affiliation, and preferred contact email in the submission email text, as well as your extended abstract.
 
 ### 3. Selection process – curated
 
