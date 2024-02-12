@@ -1,18 +1,19 @@
 ---
 label: Contact
-description: Contact details for !!conference.short_name!! !!conference.year!!.
+description: Contact details for ACM CUI !!conference.year!!.
 lastmod: page
+
+title: Contact us
+
 menu:
   main:
     text: Contact
-    title: Contact the CUI !!conference.year!! General Chairs
+    title: Contact the ACM CUI !!conference.year!! General Chairs
     weight: 10
 ---
 
-<h1 style="text-align: center;">Contact us</h1>
 
-<br>
-
+<p>
 {%- for group in site.data.oc -%}
     {%- for role in group[1]['roles'] -%}
         {% if role[1]['contact'] -%}
@@ -27,3 +28,4 @@ menu:
     {%- endfor -%}
 	{%- break -%}
 {%- endfor -%}
+</p>

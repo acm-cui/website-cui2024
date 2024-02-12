@@ -5,6 +5,8 @@ lastmod:
   type: data
   file: oc.yml
 
+title: Organising Committee
+
 menus:
   organisers:
     text: Organising Committee
@@ -12,11 +14,7 @@ menus:
     weight: 0
 ---
 
-<h1 style="text-align: center;">Organising Committee</h1>
-
-<br>
-
-<p style="text-align: center;">
+<p class="text-center">
     The following people have volunteered their time to assist in the organisation of ACM CUI {{ site.conference.year }}.
 </p>
 
