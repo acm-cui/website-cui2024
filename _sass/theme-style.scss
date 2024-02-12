@@ -101,6 +101,19 @@ h1, h2, h3 {
 	font-weight: bold;
 }
 
+.main-title .cta {
+  .arrow {
+    transition-timing-function: $transition-timing-function;
+    transition-duration: $transition-duration;
+    transition-property: padding;
+  }
+
+  &:hover .arrow {
+    padding-left: .5rem !important;
+    padding-right: 0rem !important;
+  }
+}
+
 .homepage-banner, .homepage-sponsor {
   max-width: 100%;
 }
