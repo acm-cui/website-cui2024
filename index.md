@@ -58,7 +58,7 @@ menu:
 		<p>
 			We are planning an in-person event for 2024. <br>We hope you can join us!
 			<br><br>
-			{{ site.conference.short_name }} {{ site.conference.year }} Organising Committee
+			ACM CUI {{ site.conference.year }} Organising Committee
 		</p>
 
 		<hr class="mt-4">
@@ -110,17 +110,17 @@ menu:
 	</div>
 
 	<div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start flex-wrap">
-		<a href="https://acm.org/" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="flex-grow-1">
-			<img src="{{ "/assets/img/banner-logo-acm.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-dk-none homepage-banner">
-			<img src="{{ "/assets/img/logo-acm-dk.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-lt-none homepage-banner">
+		<a href="https://acm.org/" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="flex-grow-1">
+			<img src="{{ "/assets/img/banner-logo-acm.png" | relative_url }}" alt="ACM In-Cooperation logo" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-dk-none homepage-banner">
+			<img src="{{ "/assets/img/logo-acm-dk.png" | relative_url }}" alt="ACM In-Cooperation logo" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-lt-none homepage-banner">
 		</a>
-		<a href="https://sigchi.org/" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="flex-grow-1">
-			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-dk-none homepage-banner">
-			<img src="{{ "/assets/img/banner-sigchi-dk.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-lt-none homepage-banner">
+		<a href="https://sigchi.org/" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="flex-grow-1">
+			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-dk-none homepage-banner">
+			<img src="{{ "/assets/img/banner-sigchi-dk.png" | relative_url }}" alt="ACM SIGCHI logo" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-lt-none homepage-banner">
 		</a>
-		<a href="https://cui.acm.org/community//" title="{{ site.conference.short_name }} {{ site.conference.year }} is part of the ACM CUI Community" class="flex-grow-1 flex-shrink-1 mt-3">
-			<img src="{{ "/assets/img/logo-cui.png" | relative_url }}" alt="The ACM CUI Community" title="{{ site.conference.short_name }} {{ site.conference.year }} is part of the ACM CUI Community" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
-			<img src="{{ "/assets/img/logo-cui-dk.png" | relative_url }}" alt="The ACM CUI Community" title="{{ site.conference.short_name }} {{ site.conference.year }} is part of the ACM CUI Community" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
+		<a href="https://cui.acm.org/community//" title="ACM CUI {{ site.conference.year }} is part of the ACM CUI Community" class="flex-grow-1 flex-shrink-1 mt-3">
+			<img src="{{ "/assets/img/logo-cui.png" | relative_url }}" alt="The ACM CUI Community" title="ACM CUI {{ site.conference.year }} is part of the ACM CUI Community" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+			<img src="{{ "/assets/img/logo-cui-dk.png" | relative_url }}" alt="The ACM CUI Community" title="ACM CUI {{ site.conference.year }} is part of the ACM CUI Community" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 		</a>
 	
 		<!--
@@ -128,34 +128,34 @@ menu:
 		<h2 class="mt-5 text-center flex-grow-1">Sponsors</h2>
 		
 		<div class="d-flex flex-row flex-items-basis-0">
-			<a href="https://www.fnr.lu/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by Luxembourg National Research Fund" class="flex-grow-1 flex-shrink-1">
-				<img src="{{ "/assets/img/sponsor-fnr-cmyk-small.png" | relative_url }}" alt="The Luxembourg National Research Fund" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Luxembourg National Research Fund" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
-				<img src="{{ "/assets/img/sponsor-fnr-white.png" | relative_url }}" alt="Luxembourg National Research Fund" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Luxembourg National Research Fund" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
+			<a href="https://www.fnr.lu/" title="ACM CUI {{ site.conference.year }} is sponsored by Luxembourg National Research Fund" class="flex-grow-1 flex-shrink-1">
+				<img src="{{ "/assets/img/sponsor-fnr-cmyk-small.png" | relative_url }}" alt="The Luxembourg National Research Fund" title="ACM CUI {{ site.conference.year }} is sponsored by the Luxembourg National Research Fund" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+				<img src="{{ "/assets/img/sponsor-fnr-white.png" | relative_url }}" alt="Luxembourg National Research Fund" title="ACM CUI {{ site.conference.year }} is sponsored by the Luxembourg National Research Fund" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
 		</div>
 		
 		<div class="d-flex flex-row flex-items-basis-0">
-			<a href="https://gouvernement.lu/en.html" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by The Government of Luxembourg" class="flex-grow-1 flex-shrink-1">
-				<img src="{{ "/assets/img/sponsor-lux-gov-light.png" | relative_url }}" alt="The Government of Luxembourg" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by The Government of Luxembourg" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
-				<img src="{{ "/assets/img/sponsor-lux-gov-light.png" | relative_url }}" alt="The Government of Luxembourg" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by The Government of Luxembourg" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
+			<a href="https://gouvernement.lu/en.html" title="ACM CUI {{ site.conference.year }} is sponsored by The Government of Luxembourg" class="flex-grow-1 flex-shrink-1">
+				<img src="{{ "/assets/img/sponsor-lux-gov-light.png" | relative_url }}" alt="The Government of Luxembourg" title="ACM CUI {{ site.conference.year }} is sponsored by The Government of Luxembourg" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+				<img src="{{ "/assets/img/sponsor-lux-gov-light.png" | relative_url }}" alt="The Government of Luxembourg" title="ACM CUI {{ site.conference.year }} is sponsored by The Government of Luxembourg" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
 		</div>
 		
 		<div class="d-flex flex-row flex-items-basis-0">
-			<a href="https://www.luxai.com" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="flex-grow-1 flex-shrink-1">
-				<img src="{{ "/assets/img/sponsor-luxai-small.png" | relative_url }}" alt="LuxAI" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by LuxAI" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
-				<img src="{{ "/assets/img/sponsor-luxai-small.png" | relative_url }}" alt="LuxAI" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by LuxAI" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
+			<a href="https://www.luxai.com" title="ACM CUI {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="flex-grow-1 flex-shrink-1">
+				<img src="{{ "/assets/img/sponsor-luxai-small.png" | relative_url }}" alt="LuxAI" title="ACM CUI {{ site.conference.year }} is sponsored by LuxAI" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+				<img src="{{ "/assets/img/sponsor-luxai-small.png" | relative_url }}" alt="LuxAI" title="ACM CUI {{ site.conference.year }} is sponsored by LuxAI" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
 		</div>
 		
 		<div class="d-flex flex-row flex-items-basis-0">
-			<a href="https://www.uni.lu/snt-en/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Interdisciplinary Centre
+			<a href="https://www.uni.lu/snt-en/" title="ACM CUI {{ site.conference.year }} is sponsored by the Interdisciplinary Centre
 Interdisciplinary Centre for Security, Reliability and Trust" class="flex-grow-1 flex-shrink-1">
 				<img src="{{ "/assets/img/sponsor-uni-snt.png" | relative_url }}" alt="The Interdisciplinary Centre
-Interdisciplinary Centre for Security, Reliability and Trust" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Interdisciplinary Centre
+Interdisciplinary Centre for Security, Reliability and Trust" title="ACM CUI {{ site.conference.year }} is sponsored by the Interdisciplinary Centre
 Interdisciplinary Centre for Security, Reliability and Trust" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
 				<img src="{{ "/assets/img/sponsor-uni-snt.png" | relative_url }}" alt="Interdisciplinary Centre
-Interdisciplinary Centre for Security, Reliability and Trust" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Interdisciplinary Centre
+Interdisciplinary Centre for Security, Reliability and Trust" title="ACM CUI {{ site.conference.year }} is sponsored by the Interdisciplinary Centre
 Interdisciplinary Centre for Security, Reliability and Trust" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
 		</div>

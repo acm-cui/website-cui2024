@@ -7,7 +7,7 @@
 		{%- include header_css.html -%}
 		{%- include header_javascript.html -%}
     {% if page.name == "index.md" %}
-    <title>Welcome to {{ site.conference.short_name }} {{ site.conference.year }}</title>
+    <title>Welcome to ACM CUI {{ site.conference.year }}</title>
     {% else %}
 		<title>{{ page.title | escape | replace: "!!conference.year!!", site.conference.year | replace: "!!conference.location!!", site.conference.location | replace: "!!conference.dates!!", site.conference.dates }} - {{ site.title }}</title>
     {% endif %}
@@ -16,7 +16,7 @@
     <body class="my-0 mx-auto p-0">
         <header class="w-100">
 			<div class="w-100 h-100 prefill"></div>
-			<a href="{{ "/" | relative_url }}" class="d-block logo" title="Go to the {{ site.conference.full_name }} {{ site.conference.year }} homepage" alt="{{ site.conference.short_name }} {{ site.conference.year }} will take place in  {{ site.conference.location }} from {{ site.conference.dates }}"><h1 class="sr-only">{{ site.conference.full_name }}</h1></a>
+			<a href="{{ "/" | relative_url }}" class="d-block logo" title="Go to the ACM Conversational User Interfaces {{ site.conference.year }} homepage" alt="ACM CUI {{ site.conference.year }} will take place in  {{ site.conference.location }} from {{ site.conference.dates }}"><h1 class="sr-only">ACM Conversational User Interfaces</h1></a>
 			{%- include header_menu.html -%}
 		</header>
 		<section class="container pb-0 pt-3">
