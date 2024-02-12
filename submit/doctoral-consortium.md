@@ -6,7 +6,7 @@ splash_title: Doctoral Consortium<br>at CUI !!conference.year!!
 
 cta:
   text: Apply
-  title: Applications for the CUI 2024 are open now Doctoral Consortium
+  title: Applications for the CUI 2024 Doctoral Consortium are open now
   link: mailto:cui2024-dc@cui.acm.org
   
 track:
