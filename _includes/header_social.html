@@ -26,14 +26,14 @@
 {% if page.name == "index.md" %}
 <meta name="twitter:title" content="Welcome to {{ site.conference.short_name }} {{ site.conference.year }}">
 {% else %}
-<meta name="twitter:title" content="{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }} - {{ site.title }}">
+<meta name="twitter:title" content="{{ page.title | escape | replace: "!!conference.year!!", site.conference.year | replace: "!!conference.location!!", site.conference.location | replace: "!!conference.dates!!", site.conference.dates }} - {{ site.title }}">
 {% endif %}
 <meta name="twitter:image" content="{{ site.social.twitter.card | absolute_url }}?{{ cache }}">
 <meta name="twitter:image:alt" content="{{ site.social.twitter.card_alt }}">
 
 {%- if page contains 'description' %}
-	<meta name="twitter:description" content="{{ page.description | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
-	<meta name="description" content="{{ page.description | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+	<meta name="twitter:description" content="{{ page.description | escape | replace: "!!conference.year!!", site.conference.year | replace: "!!conference.location!!", site.conference.location | replace: "!!conference.dates!!", site.conference.dates }}">
+	<meta name="description" content="{{ page.description | escape | replace: "!!conference.year!!", site.conference.year | replace: "!!conference.location!!", site.conference.location | replace: "!!conference.dates!!", site.conference.dates }}">
 {%- endif -%}
 
 <meta name="og:image" content="{{ site.social.twitter.card | absolute_url }}?{{ cache }}">

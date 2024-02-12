@@ -21,13 +21,13 @@
 
 				{%- if item.children -%}
 					<li class="nav-item dropdown pl-md-0 {% unless forloop.last %}pr-md-3 {% else %}pr-md-0 {% endunless %}px-3 py-md-3 py-2">
-						<a class="nav-link dropdown-toggle text-center px-3 py-2 rounded-pill" href="#" id="menu{{ forloop.index }}Link" role="button" data-toggle="collapse" data-target="#menu{{ forloop.index }}" aria-haspopup="true" aria-expanded="false" title="{{ item.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+						<a class="nav-link dropdown-toggle text-center px-3 py-2 rounded-pill" href="#" id="menu{{ forloop.index }}Link" role="button" data-toggle="collapse" data-target="#menu{{ forloop.index }}" aria-haspopup="true" aria-expanded="false" title="{{ item.title | escape | replace: "!!conference.year!!", site.conference.year | replace: "!!conference.location!!", site.conference.location | replace: "!!conference.dates!!", site.conference.dates }}">
 							{{- item.text | escape -}}
 						</a>
 						<div class="dropdown-menu shadow-md text-md-left text-center mt-md-0 mt-3 p-0 collapse" aria-labelledby="menu{{ forloop.index }}Link" id="menu{{ forloop.index }}">
 							{% for subitem in item.children %}
 								{% if subitem.sep_before %}<div class="dropdown-divider"></div>{% endif %}
-								<a class="dropdown-item dropdown-item-{{ loop.index }} py-md-1 py-2" href="{{ subitem.url | relative_url }}" title="{{ subitem.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+								<a class="dropdown-item dropdown-item-{{ loop.index }} py-md-1 py-2" href="{{ subitem.url | relative_url }}" title="{{ subitem.title | escape | replace: "!!conference.year!!", site.conference.year | replace: "!!conference.location!!", site.conference.location | replace: "!!conference.dates!!", site.conference.dates }}">
 									{{ subitem.text }}
 								</a>
 							{% endfor %}
@@ -35,7 +35,7 @@
 					</li>
 				{% else %}
 					<li class="nav-item pl-md-0 {% unless forloop.last %}pr-md-3 {% else %}pr-md-0 {% endunless %}px-3 py-md-3 py-2">
-						<a class="nav-link text-center px-3 py-2 rounded-pill" href="{{ item.url | relative_url }}" title="{{ item.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">{{- item.text | escape -}}</a>
+						<a class="nav-link text-center px-3 py-2 rounded-pill" href="{{ item.url | relative_url }}" title="{{ item.title | escape | replace: "!!conference.year!!", site.conference.year | replace: "!!conference.location!!", site.conference.location | replace: "!!conference.dates!!", site.conference.dates }}">{{- item.text | escape -}}</a>
 					</li>
 				{% endif %}
 			{%- endfor -%}

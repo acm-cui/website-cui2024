@@ -1,10 +1,10 @@
 ---
 label: Papers
-description: "The Papers track at !!conference.short_name!! !!conference.year!! is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines."
+description: "The Papers track at CUI !!conference.year!! is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines."
 
 cta:
   text: Submit a paper
-  title: Submissions for the full papers track are open now
+  title: Submissions for the papers track are open now
   link: /2024/submit/pcs/
 
 track:
@@ -14,7 +14,7 @@ track:
 menus:
   submit:
     text: Papers
-    title: Information about submitting to the Full Papers track at !!conference.short_name!! !!conference.year!!
+    title: Information about submitting to the Papers track at CUI !!conference.year!!
     weight: 0
     is_track: true
 ---

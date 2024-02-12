@@ -27,9 +27,6 @@ description: >-
   The ACM Conversational User Interfaces (ACM CUI) 2024 conference will be in Luxembourgh City from 8th to 10th July 2024.
 
 conference:
-  full_name: Conversational User Interfaces
-  footer_name: ACM conference on Conversational User Interfaces
-  short_name: CUI
   year: 2024
   location: Luxembourg City, Luxembourg
   city: Luxembourg City
@@ -75,21 +72,6 @@ titles_from_headings:
     enabled: true
     strip_title: true
     collections: true
-
-# Page generation from data
-# page_gen-dirs: true # uncomment, if you prefer to generate named folders
-# page_gen:
-#    - data: prg_sessions
-#      template: programme-ical
-#      name: id
-#      extension: ics
-#      dir: '/programme/ics'
-#      index_files: false
-#    - data: prg_sessions
-#      template: programme-redirect
-#      name: id
-#      dir: '/programme/link/'
-#      index_files: false
 
 # Pagination
 pagination:

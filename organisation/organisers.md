@@ -1,6 +1,6 @@
 ---
 label: Organising Committee
-description: The Organising Committee for the !!conference.year!! !!conference.full_name!! conference.
+description: The Organising Committee for the !!conference.year!! Conversational User Interfaces conference.
 lastmod:
   type: data
   file: oc.yml
@@ -8,7 +8,7 @@ lastmod:
 menus:
   organisers:
     text: Organising Committee
-    title: Volunteers leading the organisation and running of !!conference.full_name!! !!conference.year!!
+    title: Volunteers leading the organisation and running of Conversational User Interfaces !!conference.year!!
     weight: 0
 ---
 
