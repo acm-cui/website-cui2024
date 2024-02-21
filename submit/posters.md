@@ -1,8 +1,10 @@
 ---
+title: Posters
 label: Posters
 description: Posters at CUI !!conference.year!! are short papers that present early-stage research and late-breaking work in the field of Conversational User Interfaces.
 
-splash_title: Posters<br>at CUI !!conference.year!!
+maintainer: postersdemos
+lastmod: page
 
 cta:
   text: Submit a poster
@@ -19,11 +21,7 @@ menus:
     title: Information about submitting to the posters track at CUI !!conference.year!!
     weight: 2
     is_track: true
-
-lastmod: page
 ---
-
-# Posters
 
 We invite the submission of posters from a broad range of disciplines, including human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology, and other cognate disciplines. 
 

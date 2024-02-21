@@ -1,5 +1,7 @@
 <p style="text-align: center;" class="mb-0 py-3">
-	<a href="https://www.acm.org/about-acm/privacy-policy" title="Association for Computing Machinery OP">ACM Privacy Policy</a><br>
-    &copy; {{ site.time | date: "%Y" }} ACM conference on Conversational User Interfaces
+	<a href="https://www.acm.org/about-acm/privacy-policy" title="Association for Computing Machinery OP">ACM Privacy Policy</a>
+  {%- if page.maintainer %} &bull; Page content maintained by {% for group in site.data.oc -%}{%- for role in group[1]['roles'] -%}{%- if role[0] == page.maintainer -%}<a href="{{ role[1].email }}" title="Contact the ACM CUI {{ site.conference.year }} {{ role[1].label }}, who maintain the content for this page">{{ role[1].label }}</a>{%- break -%}{%- endif -%}{%- endfor -%}{%- endfor -%}{%- endif -%}
+  <br>
+  &copy; {{ site.time | date: "%Y" }} ACM conference on Conversational User Interfaces
   <!--  Designed by <a href="https://www.porcheron.uk/" title="Martin Porcheron's website">Martin Porcheron</a> and built with <a href="https://jekyllrb.com/" title="Jekyll website generator">Jekyll</a>.<br>-->
 </p>

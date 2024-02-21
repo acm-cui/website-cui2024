@@ -1,8 +1,10 @@
 ---
+title: Workshops
 label: Workshops
 description: CUI !!conference.year!! will feature a dedicated workshops track, allowing attendees to organise focused activities co-located at the conference. We are now open to workshops proposals.
 
-splash_title: Workshops<br>at CUI !!conference.year!!
+maintainer: workshops
+lastmod: page
 
 cta:
   text: Submit a workshop proposal
@@ -20,11 +22,7 @@ menus:
     weight: 4
     is_track: true
     sep_before: true
-
-lastmod: page
 ---
-
-# Workshops
 
 To propose a workshop, you should write a proposal about the topic and your plans for the workshop. If accepted, you will be expected to lead the organisation of the workshop. At least one workshop organiser is expected to attend the conference. Workshops can be planned to be entirely in-person or in hybrid mode. 
 

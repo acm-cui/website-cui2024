@@ -1,8 +1,10 @@
 ---
+title: Financial support
 label: Financial support
 description: Support for traveling to and attending ACM CUI !!conference.year!! from SIGCHI.
 
-title: Financial support
+maintainer: diversity
+lastmod: page
 
 menus:
   attend:

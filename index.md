@@ -1,9 +1,9 @@
 ---
-permalink: /
-splash_title: Designing for inclusive conversation
-description: > 
-  The International ACM Conversational User Interfaces conference for !!conference.year!! will take place in !!conference.location!! from !!conference.dates!!.
+title: Welcome to CUI!
+description: The International ACM Conversational User Interfaces conference for !!conference.year!! will take place in !!conference.location!! from !!conference.dates!!.
 
+permalink: /
+maintainer: general
 lastmod: page
 
 menu:
@@ -13,10 +13,8 @@ menu:
     weight: 1
 ---
 
-<h1 style="text-align: center;">Welcome to CUI!</h1>
-
 <br>
-  
+
 <div class="row">
     <!-- <div class="col-xl-12 col-lg-12 col-md-12 col-12"> -->
     <div class="col-xl-8 col-lg-7 col-12">

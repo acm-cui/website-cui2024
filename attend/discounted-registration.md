@@ -1,8 +1,10 @@
 ---
+title: Discounted Registration
 label: Discounted Registration Eligibility
 description: Details about the reduced rate for CUI !!conference.year!! attendees who live in an economically developing country.
 
-title: Discounted Registration
+maintainer: diversity
+lastmod: page
 
 registration_open: false
 
@@ -12,7 +14,6 @@ menus:
     title: Discounted registration eligibility for attendees from economically developing countries.
     weight: 10
 ---
-
 
 CUI {{ site.conference.year }} registration is discounted by 25% for all individuals who live in one of the following economically developing countries. We have followed the approach that the [ACM has developed for reduced ACM membership rates](https://www.acm.org/membership/special-member-rates-developing-countries "ACM reduced mebership rate countries").
 

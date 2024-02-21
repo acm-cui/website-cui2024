@@ -1,10 +1,9 @@
 ---
 title: About us
 label: Organisers
-description: Information on CUI !!conference.year!! organisers.
+description: Information on the teams organising ACM CUI !!conference.year!!.
 
-splash_title: The teams behind<br>CUI !!conference.year!!
-
+maintainer: socialmedia
 lastmod: page
 
 menu:

@@ -1,11 +1,12 @@
 ---
+title: Organising Committee
 label: Organising Committee
 description: The Organising Committee for the !!conference.year!! Conversational User Interfaces conference.
+
+maintainer: socialmedia
 lastmod:
   type: data
   file: oc.yml
-
-title: Organising Committee
 
 menus:
   organisers:

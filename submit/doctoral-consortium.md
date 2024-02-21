@@ -1,8 +1,10 @@
 ---
+title: Doctoral Consortium
 label: Doctoral Consortium
 description: The CUI !!conference.year!! Doctoral Consortium is designed to allow PhD students in the field of HCI and Conversational User Interfaces to present and share their work, and receive feedback, through an interactive workshop.
 
-splash_title: Doctoral Consortium<br>at CUI !!conference.year!!
+maintainer: dc
+lastmod: page
 
 cta:
   text: Apply
@@ -19,11 +21,7 @@ menus:
     title: Information about applying to the CUI !!conference.year!! doctoral consortium.
     weight: 5
     is_track: true
-
-lastmod: page
 ---
-
-# Doctoral Consortium
 
 The CUI {{ site.conference.year }} Doctoral Consortium is a half-day session where doctoral students of conversational user interfaces can discuss their research with other students and experts within the field. Doctoral work is important to our rapidly advancing area of research, and we very much look forward to making the Doctoral Consortium a meeting place for students in the field.
 

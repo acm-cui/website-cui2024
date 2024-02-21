@@ -1,8 +1,10 @@
 ---
+title: Demos
 label: Demos
 description: Demos at CUI !!conference.year!! are interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces.
 
-splash_title: Demos<br>at CUI !!conference.year!!
+maintainer: postersdemos
+lastmod: page
 
 cta:
   text: Submit a demo
@@ -19,11 +21,7 @@ menus:
     title: Information about submitting to the demos track at CUI !!conference.year!!
     weight: 3
     is_track: true
-
-lastmod: page
 ---
-
-# Demos
 
 We invite the submission of demos from a broad range of disciplines, including human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology, and other cognate disciplines.
 

@@ -1,6 +1,7 @@
 ---
 label: Submission system
-description: Go to the PCS submission system.
+description: Go to the PCS submission system, used for submitting to the ACM CUI !!conference.year!! tracks.
+
 layout: redirection
 target: https://new.precisionconference.com/submissions?focus=cui24
 
@@ -10,5 +11,4 @@ menus:
     title: Go to the submission system for CUI !!conference.year!!
     sep_before: true
     weight: 9
-
 ---

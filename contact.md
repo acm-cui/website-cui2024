@@ -1,9 +1,10 @@
 ---
+title: Contact us
 label: Contact
 description: Contact details for ACM CUI !!conference.year!!.
-lastmod: page
 
-title: Contact us
+maintainer: general
+lastmod: page
 
 menu:
   main:

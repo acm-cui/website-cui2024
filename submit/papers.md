@@ -1,6 +1,10 @@
 ---
+title: Papers
 label: Papers
 description: "The Papers track at CUI !!conference.year!! is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines."
+
+maintainer: papers
+lastmod: page
 
 cta:
   text: Submit a paper
@@ -18,8 +22,6 @@ menus:
     weight: 0
     is_track: true
 ---
-
-# Papers
 
 We invite the submission of research papers from a broad range of disciplines, including human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology, and other cognate disciplines. We encourage the submission of high-quality replication studies in addition to well-designed studies with null results.
 
