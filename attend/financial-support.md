@@ -27,7 +27,7 @@ Please see our [call for applications](https://sigchi.submittable.com/submit "Ap
 
 Deadlines are on the 9th of January, February, March, May, July, September, and November at 11:59 PM AoE. If we offer extensions, the new deadline will be noted on the application website. 
 
-You must apply by a deadline more than one month before the start of the conference that you plan to attend (we recommend applying as soon as you have your conference acceptance). For transparency, award recipients will be announced periodically on the [SIGCHI website](https://sigchi.org/gary-marsden-travel-award-recipients/ "The ACM Special Interest Group on Computer Human Interaction"). 
+You must apply by a deadline more than one month before the start of the conference that you plan to attend (we recommend applying as soon as you have your conference acceptance). For transparency, award recipients will be announced periodically on the [SIGCHI website](https://sigchi.org/ "The ACM Special Interest Group on Computer Human Interaction"). 
 
 Please email [sigchi-4all@acm.org](mailto:sigchi-4all@acm.org "Email SIGCHI 4 all") with any questions about the GMTA or fixes/feedback for the application form.
 
