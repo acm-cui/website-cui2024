@@ -199,7 +199,7 @@ blockquote {
       background: linear-gradient(180deg, rgba($body-bg,0) 50%, rgba($body-bg,1) 95%), map-get($header-bg-imgs, $breakpoint);
       
       .logo {
-        background-image: linear-gradient(180deg, rgba($body-bg,0) 70%, rgba($body-bg,1) 95%), map-get($header-fg-imgs, $breakpoint);
+        background-image: linear-gradient(180deg, rgba($body-bg,0) 85%, rgba($body-bg,1) 100%), map-get($header-fg-imgs, $breakpoint);
       }
     }
   }
