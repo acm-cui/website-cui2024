@@ -7,9 +7,9 @@ maintainer: papers
 lastmod: page
 
 cta:
-  text: Submit a paper
-  title: Submissions for the papers track are open now
-  link: /2024/submit/pcs/
+  text: Submissions closed
+  title: Submissions for the papers track have now closed
+#  link: /2024/submit/pcs/
 
 track:
   chairs: papers
