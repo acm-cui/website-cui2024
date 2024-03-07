@@ -27,7 +27,7 @@ We invite the submission of demos from a broad range of disciplines, including h
 
 Demos are interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. For the submission and review process, you should write an extended abstract that summarizes your demo. If accepted, we will invite you to present your work at CUI 2024, with your extended abstract being published in the conference proceedings.
 
-Examples of previously successful demo submissions at CUI can be found in the ACM Digital Library. Last year’s posters were published as ["work in progress"](https://dl.acm.org/doi/proceedings/10.1145/3571884 'CUI 2023 proceedings') in the posters and demos session.
+Examples of previously successful demo submissions at CUI can be found in the ACM Digital Library. Last year’s posters were published as ["demonstration"](https://dl.acm.org/doi/proceedings/10.1145/3571884 'CUI 2023 proceedings') in the posters and demos session.
 
 ## Key dates
 
