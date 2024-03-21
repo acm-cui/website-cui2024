@@ -53,7 +53,7 @@ ACM’s CCS concepts and keywords are not required for submission and peer revie
 
 ### 2. Submit your extended abstract
 
-You should submit your extended abstract and video to the [conference submission system]({{ "/submit/pcs/" | relative_url }} "CUI {{ site.conference.year }} submission system"). You must include your title, abstract, author details, and extended abstract as a PDF. Your extended abstract must be anonymised, or it may be desk rejected.  Please follow the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide/  "SIGCHI's guide to an Accessible Submission") to make your submission accessible for all users. Submitting your article to an ACM Publication acknowledges that you and your co-authors are subject to all [ACM Publications Policies](https://www.acm.org/publications/policies "ACM Publications Policies and Procedures").
+You should submit your extended abstract to the [conference submission system]({{ "/submit/pcs/" | relative_url }} "CUI {{ site.conference.year }} submission system"). You must include your title, abstract, author details, and extended abstract as a PDF. Your extended abstract must be anonymised, or it may be desk rejected.  Please follow the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide/  "SIGCHI's guide to an Accessible Submission") to make your submission accessible for all users. Submitting your article to an ACM Publication acknowledges that you and your co-authors are subject to all [ACM Publications Policies](https://www.acm.org/publications/policies "ACM Publications Policies and Procedures").
 
 ### 3. Await reviews
 
