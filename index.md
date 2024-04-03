@@ -142,7 +142,8 @@ menu:
 		
 		<div class="d-flex flex-row flex-items-basis-0 mx-auto">
 			<a href="https://www.list.lu" title="ACM CUI {{ site.conference.year }} is sponsored by Luxembourg Institute of Science and Technology" class="flex-grow-1 flex-shrink-1">
-				<img src="{{ "/assets/img/sponsors/sponsor-list.png" | relative_url }}" alt="Luxembourg Institute of Science and Technology" title="ACM CUI {{ site.conference.year }} is sponsored by Luxembourg Institute of Science and Technology" class="mx-auto mt-md-3 mt-5 homepage-sponsor">
+				<img src="{{ "/assets/img/sponsors/sponsor-list.png" | relative_url }}" alt="Luxembourg Institute of Science and Technology" title="ACM CUI {{ site.conference.year }} is sponsored by Luxembourg Institute of Science and Technology" class="mx-auto mt-md-3 mt-5 d-dk-none homepage-sponsor">
+				<img src="{{ "/assets/img/sponsors/sponsor-list-dark.png" | relative_url }}" alt="Luxembourg Institute of Science and Technology" title="ACM CUI {{ site.conference.year }} is sponsored by Luxembourg Institute of Science and Technology" class="mx-auto mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
 		</div>
 

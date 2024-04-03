@@ -7,9 +7,9 @@ maintainer: workshops
 lastmod: page
 
 cta:
-  text: Submit a workshop proposal
-  title: Submit a workshop proposal by email
-  link: 'mailto:cui2024-workshops@cui.acm.org'
+  text: Submissions close
+  title: Submissions for workshop proposals are closed
+#  link: 'mailto:cui2024-workshops@cui.acm.org'
   
 track:
   chairs: workshops
