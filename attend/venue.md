@@ -36,7 +36,7 @@ menus:
 
 </div>
 
-## Day 2 (9th and 10th July 2024) – European Convention Center
+## Day 2 and 3 (9th and 10th July 2024) – European Convention Center
 
 <div class="row">
 
