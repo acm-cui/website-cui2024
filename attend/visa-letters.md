@@ -11,6 +11,7 @@ menus:
     text: Visa Support Letters
     title: Information about support for visas for ACM CUI.
     weight: 8
+    sep_before: true
 ---
 
 [ACM](https://acm.org "The Association for Computing Machinery") is able to provide visa support letters to attendees as well as authors with accepted papers, posters, or members of the conference committee.
