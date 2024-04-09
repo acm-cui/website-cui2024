@@ -6,7 +6,7 @@ title: Registration
 splash_title: Register for CUI !!conference.year!!
 
 cta:
-  text: Registration opens soon.
+  text: Registration opens soon
 #  text: Register now
 #  title: Registration for ACM CUI is open now
 #  link: https://cvent.me/A8XxdO
