@@ -1,0 +1,146 @@
+- label: Category H
+  discount: 40% of the cost (60% discount)
+  countries:
+   - Albania
+   - Algeria
+   - Angola
+   - Argentina
+   - Armenia
+   - Azerbaijan
+   - Belarus
+   - Belize
+   - Bosnia
+   - Botswana
+   - Brazil
+   - Bulgaria
+   - Colombia
+   - Cook Islands
+   - Costa Rica
+   - Cuba
+   - Dominica
+   - Dominican Republic
+   - Ecuador
+   - Fiji
+   - French Guiana
+   - Gabon
+   - Georgia
+   - Grenada
+   - Guadeloupe
+   - Guatemala
+   - Guyana
+   - Iran
+   - Iraq
+   - Jamaica
+   - Jordan
+   - Kazakhstan
+   - Kosovo
+   - Lebanon
+   - Libya
+   - North Macedonia
+   - Malaysia
+   - Maldives
+   - Marshall Islands
+   - Mauritius
+   - Mexico
+   - Montenegro
+   - Namibia
+   - Paraguay
+   - Peru
+   - Romania
+   - Russian Federation
+   - Saint Lucia
+   - Samoa
+   - Serbia
+   - South Africa
+   - Sri Lanka
+   - St. Vincent
+   - Suriname
+   - Thailand
+   - Tonga
+   - Tunisia
+   - Turkey
+   - Turkmenistan
+   - Tuvalu
+   - Venezuela
+
+- label: Category I
+  discount: 25% of the cost (75% discount)
+  countries:
+   - Afghanistan
+   - Bangladesh
+   - Benin
+   - Bhutan
+   - Bolivia
+   - Burkina Faso
+   - Burundi
+   - C African Rp
+   - Cambodia
+   - Cameroon
+   - Cape Verde
+   - Chad
+   - China
+   - Comoros
+   - Congo
+   - Congo, Democratic Republic
+   - Djibouti
+   - Egypt
+   - El Salvador
+   - Eritrea
+   - Eswatini
+   - Ethiopia
+   - Federal State of Micronesia
+   - Gambia
+   - Ghana
+   - Guinea
+   - Guinea-Bissau
+   - Haiti
+   - Honduras
+   - India
+   - Indonesia
+   - Ivory Coast
+   - Kenya
+   - Kiribati
+   - Kyrgyzstan
+   - Lesotho
+   - Liberia
+   - Madagascar
+   - Malawi
+   - Mali
+   - Mauritania
+   - Mongolia
+   - Morocco
+   - Mozambique
+   - Myanmar
+   - Nepal
+   - Nicaragua
+   - Niger
+   - Nigeria
+   - North Korea
+   - Pakistan
+   - Palestine
+   - Papua New Guinea
+   - People’s Dem. Republic of Lao
+   - Philippines
+   - Republic Moldova
+   - Rwanda
+   - Sao Tome and Principe
+   - Senegal
+   - Sierra Leone
+   - Solomon Isl
+   - Somalia
+   - South Sudan
+   - Sudan
+   - Swaziland
+   - Syria
+   - Tadzhikistan
+   - Tanzania
+   - Timor-Leste
+   - Togo
+   - Uganda
+   - Ukraine
+   - Uzbekistan
+   - Vanuatu
+   - Viet Nam
+   - Yemen
+   - Zambia
+   - Zimbabwe

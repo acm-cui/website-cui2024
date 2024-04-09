@@ -15,7 +15,36 @@ menus:
     weight: 10
 ---
 
-CUI {{ site.conference.year }} registration is discounted by 25% for all individuals who live in one of the following economically developing countries. We have followed the approach that the [ACM has developed for reduced ACM membership rates](https://www.acm.org/membership/special-member-rates-developing-countries "ACM reduced mebership rate countries").
+The Reduced Rate registration is open to individuals who currently live in one of the following economically developing countries. We have followed the approach that the ACM has developed for [reduced ACM membership rates](https://www.acm.org/membership/special-member-rates-developing-countries).
+
+The following discount categories apply as outlined below.
+
+<ul>
+{% for discount in site.data.discounted_registration %}
+	<li>{{ discount.label }} = {{ discount.discount }}</li>
+{% endfor %}
+</ul>
+
+{% for discount in site.data.discounted_registration %}
+<h2>{{ discount.label }}</h2>
+
+<div><div>
+{% assign current_letter = 'none' %}
+{% assign sorted_countries = discount.countries | sort %}
+{% for country in sorted_countries %}
+{% assign letter_curr_country = country | slice: 0 %}
+{% if current_letter != letter_curr_country %}
+{% assign current_letter = letter_curr_country %}</div></div>
+<div class="d-flex flex-row mb-3">
+<div class="bg-secondary text-white border-1 font-weight-bold text-large text-uppercase text-center py-3 d-inline-block rounded" style="width: 4rem">
+{{ current_letter }}
+</div>
+<div class="d-flex flex-row flex-wrap pl-3 w-100">
+{% endif %}
+<div class="w-md-50 w-100 text-md-left text-center">{{ country }}</div>
+{% endfor %}
+</div></div>
+{% endfor %}
 
 <div class="d-flex flex-row mb-3">
 	<div class="bg-secondary text-white border-1 font-weight-bold text-large text-uppercase text-center py-3 d-inline-block rounded" style="width: 4rem">
