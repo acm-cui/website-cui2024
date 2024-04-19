@@ -7,9 +7,9 @@ maintainer: provocations
 lastmod: page
 
 cta:
-  text: Submit a provocation
-  title: Submissions for the provocations track are open now
-  link: /2024/submit/pcs/
+  text: Submissions closed
+  title: Submissions for the provocations track have now closed
+  # link: /2024/submit/pcs/
   
 track:
   chairs: provocations

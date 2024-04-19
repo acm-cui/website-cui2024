@@ -7,9 +7,9 @@ maintainer: postersdemos
 lastmod: page
 
 cta:
-  text: Submit a poster
-  title: Submissions for the posters track are open now
-  link: /2024/submit/pcs/
+  text: Submissions closed
+  title: Submissions for the posters track have now closed
+  # link: /2024/submit/pcs/
   
 track:
   chairs: postersdemos
