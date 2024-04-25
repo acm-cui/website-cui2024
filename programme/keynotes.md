@@ -13,7 +13,6 @@ menus:
     weight: 0
 ---
 
-We are delighted to announce that CUI {{ site.conference.year }} features keynotes from a distinguished academic: Simon King.
 
 ## Simon King: What is AI speech generation currently capable of?
 
