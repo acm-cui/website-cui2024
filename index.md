@@ -107,7 +107,7 @@ menu:
 		</ul>
 	</div>
 
-	<div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start flex-wrap">
+	<div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start justify-content-center flex-wrap">
 		<a href="https://acm.org/" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="flex-grow-1">
 			<img src="{{ "/assets/img/banner-logo-acm.png" | relative_url }}" alt="ACM In-Cooperation logo" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-dk-none homepage-banner">
 			<img src="{{ "/assets/img/logo-acm-dk.png" | relative_url }}" alt="ACM In-Cooperation logo" title="ACM CUI {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-lt-none homepage-banner">
@@ -132,9 +132,8 @@ menu:
 			</a>
 		</div>
 		-->
-		
 		<div class="d-flex flex-row flex-items-basis-0">
-			<a href="https://www.luxai.com" title="ACM CUI {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="flex-grow-1 flex-shrink-1">
+			<a href="https://www.luxai.com" title="ACM CUI {{ site.conference.year }} is sponsored by the LuxAI" class="flex-grow-1 flex-shrink-1">
 				<img src="{{ "/assets/img/sponsors/sponsor-lux-light.png" | relative_url }}" alt="LuxAI" title="ACM CUI {{ site.conference.year }} is sponsored by LuxAI" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
 				<img src="{{ "/assets/img/sponsors/sponsor-lux-dark.png" | relative_url }}" alt="LuxAI" title="ACM CUI {{ site.conference.year }} is sponsored by LuxAI" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
@@ -144,6 +143,13 @@ menu:
 			<a href="https://www.list.lu" title="ACM CUI {{ site.conference.year }} is sponsored by Luxembourg Institute of Science and Technology" class="flex-grow-1 flex-shrink-1">
 				<img src="{{ "/assets/img/sponsors/sponsor-list.png" | relative_url }}" alt="Luxembourg Institute of Science and Technology" title="ACM CUI {{ site.conference.year }} is sponsored by Luxembourg Institute of Science and Technology" class="mx-auto mt-md-3 mt-5 d-dk-none homepage-sponsor">
 				<img src="{{ "/assets/img/sponsors/sponsor-list-dark.png" | relative_url }}" alt="Luxembourg Institute of Science and Technology" title="ACM CUI {{ site.conference.year }} is sponsored by Luxembourg Institute of Science and Technology" class="mx-auto mt-md-3 mt-5 d-lt-none homepage-sponsor">
+			</a>
+		</div>
+
+		<div class="d-flex flex-row flex-items-basis-0">
+			<a href="https://www.uni.lu" title="ACM CUI {{ site.conference.year }} is sponsored by the University of Luxembourg" class="flex-grow-1 flex-shrink-1">
+				<img src="{{ "/assets/img/sponsors/sponsor_uni_lu.png" | relative_url }}" alt="University of Luxembourg" title="ACM CUI {{ site.conference.year }} is sponsored by the University of Luxembourg" class="mt-md-3 mt-5 d-dk-none center homepage-sponsor">
+				<img src="{{ "/assets/img/sponsors/sponsor_uni_lu_dark.png" | relative_url }}" alt="University of Luxembourg" title="ACM CUI {{ site.conference.year }} is sponsored by the University of Luxembourg" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
 		</div>
 
