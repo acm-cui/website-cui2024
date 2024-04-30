@@ -7,7 +7,7 @@ maintainer: workshops
 lastmod: page
 
 cta:
-  text: Submissions close
+  text: Submissions closed
   title: Submissions for workshop proposals are closed
 #  link: 'mailto:cui2024-workshops@cui.acm.org'
   
