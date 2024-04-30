@@ -7,9 +7,9 @@ maintainer: dc
 lastmod: page
 
 cta:
-  text: Apply
-  title: Applications for the CUI 2024 Doctoral Consortium are open now
-  link: mailto:cui2024-dc@cui.acm.org
+  text: Applications closed
+  title: Applications for the CUI 2024 Doctoral Consortium have now closed
+#  link: mailto:cui2024-dc@cui.acm.org
   
 track:
   chairs: dc
