@@ -91,11 +91,10 @@
                 institution: University of Oulu
                 country: Finland
                 image: justin-edwards.jpg
-              - name: Saja Aljuneidi
+              - name: Kayhan Latifzadeh
                 position: Research Associate
-                institution: OFFIS - Institute for Information<br>Technology
-                country: Germany
-                image: saja-aljuneidi.jpg
+                institution: University of Luxembourg
+                country: Luxembourg
         diversity:
             label: Diversity & Accessibility chairs
             email: 'mailto:cui2024-diversity@cui.acm.org'
