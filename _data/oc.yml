@@ -95,6 +95,7 @@
                 position: Research Associate
                 institution: University of Luxembourg
                 country: Luxembourg
+                image: kayhan-latifzadeh.jpg
         diversity:
             label: Diversity & Accessibility chairs
             email: 'mailto:cui2024-diversity@cui.acm.org'
