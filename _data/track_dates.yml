@@ -31,7 +31,8 @@ provocations:
      homepage: true
 
   -  label: Notifications
-     date: 9th May 2024
+     date: 9th 
+     extended_date: 15th May 2024
 
   -  label: Camera ready/TAPS due
      date: 23rd May 2024
