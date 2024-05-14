@@ -8,7 +8,7 @@ lastmod: page
 
 cta:
   text: Volunteer now
-  title: Become a CUI !!conference.year!! Student Volunteer
+  title: Become a CUI Student Volunteer
   link: https://forms.gle/vzXomtgRQ72XzYZt5
 
 menus:
