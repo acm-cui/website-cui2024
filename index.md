@@ -59,7 +59,7 @@ menu:
 			ACM CUI {{ site.conference.year }} Organising Committee
 		</p>
 
-		<hr class="mt-4">
+		<!--<hr class="mt-4">
 
 		<h2>Submission Dates</h2>
 
@@ -105,6 +105,7 @@ menu:
 				{%- endfor -%}
 			</li>
 		</ul>
+		-->
 	</div>
 
 	<div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start justify-content-center flex-wrap">
