@@ -55,8 +55,8 @@ For CUI {{ site.conference.year }} SVs, you will agree to:
 
 * Work at least 16 hours (if you are presenting a paper, we will make sure you do not have volunteer duties during that time)
 * Show up on time to tasks
-* Attend an orientation session Friday morning
-* Arrive at the conference by **Friday morning** at the latest
+* Attend an orientation session Sunday afternoon
+* Arrive at the conference by **Sunday morning** at the latest
 
 In return, we commit to:
 
