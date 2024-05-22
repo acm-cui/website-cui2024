@@ -46,6 +46,9 @@ GEM
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
     jekyll-datapage-generator (1.4.0)
+    jekyll-last-commit (0.0.3)
+      jekyll (>= 3.7, < 5.0)
+      rugged (~> 1.1)
     jekyll-minifier (0.1.10)
       cssminify2 (~> 2.0)
       htmlcompressor (~> 0.4)
@@ -95,6 +98,7 @@ GEM
     rexml (3.2.8)
       strscan (>= 3.0.9)
     rouge (4.2.0)
+    rugged (1.7.2)
     safe_yaml (1.0.5)
     sass-embedded (1.63.6-arm64-darwin)
       google-protobuf (~> 3.23)
@@ -125,6 +129,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.3)
   jekyll-datapage-generator (~> 1.4.0)
+  jekyll-last-commit
   jekyll-menus!
   jekyll-minifier
   jekyll-optional-front-matter
