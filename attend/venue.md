@@ -1,6 +1,10 @@
 ---
+title: CUI !!conference.year!! venue information
 label: Venues
 description: Venue information for Conversational User Interfaces !!conference.year!! conference.
+
+maintainer: local
+lastmod: page
 
 menus:
   attend:
@@ -8,8 +12,6 @@ menus:
     title: Details about the CUI !!conference.year!! conference venue.
     weight: 5
 ---
-
-# CUI !!conference.year!! venue information
 
 ## Day 1 (8th July 2024) – Kirchberg Campus, University of Luxembourg
 

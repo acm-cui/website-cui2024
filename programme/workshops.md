@@ -1,9 +1,10 @@
 ---
+title: Workshops
 label: Workshops
 description: Workshops hosted at the ACM Conversational User Interfaces (CUI) !!conference.year!! conference.
 
-title: Workshops
-splash_title: Workshops at CUI !!conference.year!!
+maintainer: workshops
+lastmod: page
 
 menus:
   attend:
