@@ -46,3 +46,19 @@ With a PhD in Human-Computer Interaction, Dr. Candello is passionate about explo
         
     <img src="{{ "/assets/img/keynotes/heloisa-candello.jpg" | relative_url }}" alt="A photograph of Simon King" title="Simon King" class="flex-grow-0 align-self-start mx-md-0 mx-auto mt-md-0 mt-3">
 </div>
+
+## Jonathan Gratch: The Social Function of Machine Emotional Expressions
+
+<div class="d-flex flex-md-row flex-column">
+  <div class="flex-grow-1 pe-3">
+  <p>
+    In this talk I will discuss the use of synthetic expressions for shaping human-agent interactions.
+  </p>
+  
+    <em>
+       Jonathan Gratch is a Research Full Professor of Computer Science and Psychology at the University of Southern California (USC) and Director for Virtual Human Research at USC’s Institute for Creative Technologies. He completed his Ph.D. in Computer Science at the University of Illinois in Urbana-Champaign in 1995. Dr. Gratch’s research focuses on computational models of human cognitive and social processes, especially emotion, and explores these models’ potential to advance psychological theory and shape human-machine interaction. He is the founding Editor-in-Chief (retired) of IEEE’s Transactions on Affective Computing, Associate Editor for Affective Science, Emotion Review, and former President of the Association for the Advancement of Affective Computing (AAAC). He is a Fellow of AAAI, AAAC, and the Cognitive Science Society.
+    </em>
+    </div>
+        
+    <img src="{{ "/assets/img/keynotes/jonathan-gratch.jpg" | relative_url }}" alt="A photograph of Simon King" title="Simon King" class="flex-grow-0 align-self-start mx-md-0 mx-auto mt-md-0 mt-3">
+</div>
