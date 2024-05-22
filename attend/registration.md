@@ -1,9 +1,10 @@
 ---
+title: Registration
 label: Registration information
 description: Details about registration for the ACM Conversational User Interfaces (CUI) !!conference.year!! conference.
 
-title: Registration
-splash_title: Register for CUI !!conference.year!!
+maintainer: registration
+lastmod: page
 
 cta:
   text: Register now

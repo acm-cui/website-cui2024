@@ -1,9 +1,10 @@
 ---
+title: Getting to CUI !!conference.year!!
 label: Travel Information
 description: Information on traveling to ACM CUI {{ site.conference.year }} in-person.
 
-title: Getting to CUI !!conference.year!!
-splash_title: Travel information<br>for CUI !!conference.year!!
+maintainer: local
+lastmod: page
 
 menus:
   attend:

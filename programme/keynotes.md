@@ -1,10 +1,11 @@
 ---
+title: Conference Keynotes
 label: Conference keynotes
 description: >
   CUI !!conference.year!! will feature a keynote from distinguished academic: Simon King from the University of Edinburgh.
-  
-title: Conference Keynotes
-splash_title: Keynotes for CUI !!conference.year!!
+
+maintainer: workshops
+lastmod: page
 
 menus:
   programme:
