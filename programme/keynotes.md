@@ -26,4 +26,3 @@ menus:
   <img src="{{ "/assets/img/keynotes/" | append: keynote.image | relative_url }}" alt="A photograph of {{ keynote.speaker }}" title="{{ keynote.speaker }}" class="flex-grow-0 align-self-start ml-md-3 mr-md-0 mx-auto mt-md-0 mt-3 rounded shadow">
 </div>
 
-{% endfor %}
