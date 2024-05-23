@@ -5,7 +5,9 @@ description: >
   CUI !!conference.year!! will feature a keynote from distinguished academic: Simon King from the University of Edinburgh.
 
 maintainer: general
-lastmod: page
+lastmod:
+  type: data
+  file: keynotes.yml
 
 menus:
   programme:

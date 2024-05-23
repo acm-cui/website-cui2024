@@ -4,7 +4,9 @@ label: Workshops
 description: Workshops hosted at the ACM Conversational User Interfaces (CUI) !!conference.year!! conference.
 
 maintainer: workshops
-lastmod: page
+lastmod:
+  type: data
+  file: workshops.yml
 
 menus:
   attend:
