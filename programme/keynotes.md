@@ -13,7 +13,8 @@ menus:
   programme:
     text: Keynotes
     title: The CUI !!conference.year!! conference keynotes
-    weight: 0
+    weight: 1
+    sep_before: true
 ---
 
 {% for keynote in site.data.keynotes %}
