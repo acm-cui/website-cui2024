@@ -40,8 +40,8 @@ menus:
 
 <div class="row">
 
-    <div class="col-lg-6 col-12 my-lg-0 mt-md-3 mb-4">
-        <img src="{{ "/assets/img/UL_Kirchberg_Map.png" | relative_url }}" alt="A map of the Kirchberg Campus" title="Map of the Kirchberg Campus" class="rounded shadow" style="max-width: 100%">
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+        <img src="{{ "/assets/img/UL_Kirchberg_Map.png" | relative_url }}" alt="A map of the Kirchberg Campus" title="Map of the Kirchberg Campus" class="rounded shadow" style="max-width: 20%; transition: transform 0.3s ease; position: relative; z-index: 1;" onmouseover="this.style.transform='scale(5.0)';" onmouseout="this.style.transform='scale(1)';">
     </div>
     
  </div>
