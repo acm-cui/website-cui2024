@@ -38,6 +38,14 @@ menus:
 
 </div>
 
+<div class="row">
+
+    <div class="col-lg-6 col-12 my-lg-0 mt-md-3 mb-4">
+        <img src="{{ "/assets/img/UL_Kirchberg_Map.png" | relative_url }}" alt="A map of the Kirchberg Campus" title="Map of the Kirchberg Campus" class="rounded shadow" style="max-width: 100%">
+    </div>
+    
+ </div>
+
 ## Day 2 and 3 (9th and 10th July 2024) – European Convention Center
 
 <div class="row">
