@@ -32,7 +32,7 @@ menus:
     
     <div class="col-12 mt-2 text-center">
         <p> 
-        	You can find directions to Kirchberg Campus on <a href="https://www.google.com/maps/place/University+of+Luxembourg,+Kirchberg+Campus/@49.6259913,6.1578717,17.08z/data=!4m6!3m5!1s0x47954f43c097afcb:0x8a49572dde7a9600!8m2!3d49.626478!4d6.1587877!16s%2Fg%2F1tjrnxq0?entry=ttu" title="Kirchberg Campus on Google Maps" target="_blank">Google Maps</a>.
+        	You can find directions to Kirchberg Campus on <a href="https://www.google.com/maps/place/49%C2%B037'36.3%22N+6%C2%B009'33.8%22E/@49.626484,6.1586487,17.84z/data=!4m4!3m3!8m2!3d49.62675!4d6.1593889?entry=ttu" title="Kirchberg Campus on Google Maps" target="_blank">Google Maps</a>.
         </p>
     </div>
 
@@ -65,12 +65,34 @@ menus:
     </div>
 
     <div class="col-lg-6 col-12 my-lg-0 mt-md-3 mb-4">
-        <img src="{{ "/assets/img/eccl.jpg" | relative_url }}" alt="An image of the European Convention Center Luxembourg" title="European Convention Center Luxembourg" class="rounded shadow" style="max-width: 100%">
+        <img src="{{ "/assets/img/eccl.png" | relative_url }}" alt="An image of the European Convention Center Luxembourg" title="European Convention Center Luxembourg" class="rounded shadow" style="max-width: 100%">
     </div>
     
     <div class="col-12 mt-1 text-center">
         <p>
-        	You can find directions to ECCL on <a href="https://www.google.com/maps/place/European+Convention+Center+Luxembourg/@49.6193722,6.1431419,17.88z/data=!4m6!3m5!1s0x47954f37301b3af1:0xb68122aac42b28b7!8m2!3d49.6193225!4d6.144781!16s%2Fg%2F11b7rxlwx6?entry=ttu" title="ECCL on Google Maps" target="_blank">Google Maps</a>.
+        	You can find directions to ECCL on <a href="https://www.google.com/maps/place/4+Pl.+de+l'Europe,+1499+Neudorf-Weimershof+Luxembourg/@49.6191519,6.1410109,17z/data=!4m6!3m5!1s0x47954f37301b3af1:0xf4241e4e71f7c1b6!8m2!3d49.6185107!4d6.1437207!16s%2Fg%2F11c24w3vp1?entry=ttu" title="ECCL on Google Maps" target="_blank">Google Maps</a>.
+        </p>
+    </div>
+
+</div>
+
+## Conference Reception (9th July 2024) – Cercle Cité
+
+<div class="row">
+
+    <div class="col-lg-6 col-12">
+        <p>
+            CUI’24 Reception will take place at Cercle Cité from 7pm on the 9th of July. Located in Luxembourg City's heart, Cercle Cité blends history and culture. The venue is housed in a historic building that once hosted the European Coal and Steel Community, it now offers art exhibitions, concerts, and conferences. Its central location on Place d'Armes makes it a vibrant hub, perfect for immersing yourself in Luxembourg's cultural scene.
+        </p>
+    </div>
+
+    <div class="col-lg-6 col-12 my-lg-0 mt-md-3 mb-4">
+        <img src="{{ "/assets/img/CercleCite.png" | relative_url }}" alt="An image of the European Convention Center Luxembourg" title="European Convention Center Luxembourg" class="rounded shadow" style="max-width: 100%">
+    </div>
+    
+    <div class="col-12 mt-1 text-center">
+        <p>
+            You can find directions to Cercle Cité on <a href="https://www.google.com/maps/place/Cercle+Cit%C3%A9/@49.6114687,6.1275902,17z/data=!3m1!4b1!4m6!3m5!1s0x479548d505a90683:0x2a5c5c6fab52a348!8m2!3d49.6114687!4d6.1301651!16s%2Fm%2F04zzbk8?entry=ttu" title="Cercle Cité on Google Maps" target="_blank">Google Maps</a>.
         </p>
     </div>
 
